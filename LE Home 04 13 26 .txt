@@ -2590,40 +2590,6 @@
     </div>
   </section>
 
-  
-  
-
-
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
   <div class="le-lightbox" id="le-home-lightbox" aria-hidden="true">
     <div class="le-lightbox-dialog" role="dialog" aria-modal="true" aria-labelledby="le-home-lightbox-title">
       <div class="le-lightbox-topbar">
