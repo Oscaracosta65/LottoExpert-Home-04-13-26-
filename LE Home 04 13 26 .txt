@@ -1621,7 +1621,7 @@
 
 <div class="le-home-v3">
 
-  <section class="le-section">
+<section class="le-section">
     <div class="le-hero" aria-labelledby="le-home-v3-title">
       <div class="le-hero-inner">
 
@@ -1636,29 +1636,28 @@
               height="110">
             <div>
               <p class="le-hero-brand-name">LottoExpert</p>
-              <p class="le-hero-brand-sub">SKAI learning, AI lottery predictions, structured analysis, and smarter decision support in one platform.</p>
+              <p class="le-hero-brand-sub">LottoExpert is the platform. SKAI powers learning-based predictions. My LottoExpert is your workspace for tracking and continuity.</p>
             </div>
           </div>
 
-          <p class="le-kicker le-kicker-light">SKAI learning-powered lottery platform</p>
+          <p class="le-kicker le-kicker-light">LottoExpert platform with SKAI intelligence</p>
 
           <h1 id="le-home-v3-title" class="le-title-xl">
-            SKAI — the lottery AI that learns, not just predicts.
+            LottoExpert gives you a clear path from predictions to smarter lottery decisions.
           </h1>
 
           <p class="le-copy-xl">
-            Start with a free account, explore predictions and analysis, and use a system where SKAI keeps learning by lottery while My LottoExpert helps you build a more organized long-term process.
+            LottoExpert helps you start fast with predictions, learn how SKAI works by lottery, and use My LottoExpert to compare runs and build a stronger long-term process.
           </p>
 
           <div class="le-button-row">
             <a class="le-btn le-btn-light" href="/membership/lottoexpert-subscriptions">Start Free</a>
-            <a class="le-btn le-btn-ghost" href="/picking-winning-numbers/artificial-intelligence/how-skai-tm-works">How SKAI Works</a>
-            <a class="le-btn le-btn-ghost" href="/blog/how-to-use-lottoexpert">Platform Guide</a>
-            <a class="le-btn le-btn-ghost" href="/best-lottery-strategy">Best Lottery Strategy</a>
+            <a class="le-btn le-btn-ghost" href="/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=101">Run SKAI Predictions</a>
+            <a class="le-btn le-btn-ghost" href="/blog/how-to-use-lottoexpert">Learn the Workflow</a>
           </div>
 
           <p class="le-hero-note">
-            SKAI is the flagship engine that learns over time inside LottoExpert. Traditional AI remains available separately, while My LottoExpert gives users a place to track, refine, and build continuity around their workflow.
+            LottoExpert is your full analysis platform. SKAI is the flagship prediction and learning engine. My LottoExpert is where members save work, compare outcomes, and refine decisions over time.
           </p>
         </div>
 
@@ -1666,16 +1665,16 @@
           <div class="le-hero-proof">
             <h2 class="le-hero-proof-title">Why serious users choose LottoExpert</h2>
             <ul class="le-hero-proof-list">
-              <li>To start with SKAI learning, AI predictions, and clearer ranked outputs before making decisions.</li>
-              <li>To compare predictions with archives, heatmaps, Skip and Hit analysis, and supporting tools in one place.</li>
-              <li>To save work, revisit ideas, and refine a personal workflow over time inside My LottoExpert.</li>
+              <li>Start with clear prediction outputs from SKAI and Traditional AI before making decisions.</li>
+              <li>Use archives, heatmaps, Skip and Hit analysis, and supporting tools to validate what stands out.</li>
+              <li>Save runs, revisit ideas, and build a repeatable process inside My LottoExpert.</li>
             </ul>
           </div>
 
           <div class="le-hero-convert">
             <h3 class="le-hero-convert-title">Start free. Go deeper when ready.</h3>
             <p class="le-hero-convert-copy">
-              Free access gives users an easy first step into predictions and platform tools. Membership expands that into a deeper analytical workflow, stronger continuity, and a more serious long-term process.
+              Free access gives you a fast start. Membership adds deeper analysis, stronger continuity, and a more serious long-term workflow.
             </p>
             <div class="le-button-row">
               <a class="le-btn le-btn-light" href="/membership/lottoexpert-subscriptions">Create Free Account</a>
@@ -1689,60 +1688,162 @@
     <div class="le-proof-strip">
       <div class="le-proof-item">
         <strong>Predictions first</strong>
-        Start with structured AI outputs and ranked numbers instead of guessing where to begin.
+        Start with ranked predictions so your first step is clear.
       </div>
       <div class="le-proof-item">
         <strong>Deeper analysis</strong>
-        Cross-check predictions against historical behavior, repeats, heatmaps, and supporting analysis.
+        Cross-check those predictions with historical behavior, repeats, and heatmaps.
       </div>
       <div class="le-proof-item">
         <strong>Stronger workflow</strong>
-        Move from raw numbers to a clearer, more organized process you can review, track, and refine.
+        Turn raw outputs into a process you can track, compare, and refine over time.
       </div>
     </div>
   </section>
-  <section class="le-section">
-    <div class="le-card le-strategy-hub">
-      <p class="le-kicker le-kicker-blue">Popular starting points</p>
-      <h2 class="le-title-lg">Start where it makes the most sense for you</h2>
+
+<section class="le-section">
+    <div class="le-card le-start">
+      <p class="le-kicker le-kicker-blue">Start here</p>
+      <h2 class="le-title-lg">Three clear ways to begin</h2>
       <p class="le-copy-lg">
-        Some visitors want the full strategy first. Others want to understand odds, see how number selection works, or jump into wheeling systems. These are the most useful places to begin.
+        Choose one path and take the next step right now. You can always return for deeper tools and education after your first action.
       </p>
 
-      <div class="le-strategy-grid">
-        <article class="le-panel le-strategy-card">
-          <h3>Start with the big picture</h3>
+      <div class="le-start-grid">
+        <article class="le-panel le-start-card">
+          <h3 class="le-title-md">I want numbers now</h3>
           <p class="le-copy">
-            If you want the clearest overview of how smarter lottery play works, begin with the main strategy page and then move into number selection and odds.
+            Go straight into SKAI and get ranked AI predictions for a major lottery without extra setup.
           </p>
-          <div class="le-strategy-links">
-            <a class="le-strategy-link" href="/best-lottery-strategy">Best Lottery Strategy</a>
-            <a class="le-strategy-link" href="/picking-winning-numbers/how-to-pick-numbers">How to Pick Lottery Numbers</a>
-            <a class="le-strategy-link" href="/picking-winning-numbers/lottery-odds-explained">Lottery Odds Explained</a>
+          <div class="le-button-row">
+            <a class="le-btn le-btn-dark" href="/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=101">Open SKAI for Powerball</a>
           </div>
         </article>
 
-        <article class="le-panel le-strategy-card">
-          <h3>Learn how the game really works</h3>
+        <article class="le-panel le-start-card">
+          <h3 class="le-title-md">I want to learn the system</h3>
           <p class="le-copy">
-            These guides help explain randomness, strategy myths, and why structured play is different from guessing without a process.
+            Learn how LottoExpert, SKAI, and supporting analysis tools connect so you can make better decisions with context.
           </p>
-          <div class="le-strategy-links">
-            <a class="le-strategy-link" href="/picking-winning-numbers/are-lottery-numbers-random">Are Lottery Numbers Random?</a>
-            <a class="le-strategy-link" href="/picking-winning-numbers/do-lottery-strategies-work">Do Lottery Strategies Work?</a>
-            <a class="le-strategy-link" href="/picking-winning-numbers/lottery-wheeling-systems-explained">Wheeling Systems Explained</a>
+          <div class="le-button-row">
+            <a class="le-btn le-btn-dark" href="/blog/how-to-use-lottoexpert">Learn LottoExpert Workflow</a>
           </div>
         </article>
 
-        <article class="le-panel le-strategy-card">
-          <h3>Go deeper into tools and systems</h3>
+        <article class="le-panel le-start-card">
+          <h3 class="le-title-md">I want to compare and save my runs</h3>
           <p class="le-copy">
-            If you already know what you want, jump straight into a major strategy page, explore structured wheeling systems, or open your LottoExpert workspace.
+            Open My LottoExpert to compare predictions, track outcomes, and keep your analysis organized between draws.
           </p>
-          <div class="le-strategy-links">
-            <a class="le-strategy-link" href="/powerball-strategy">Powerball Strategy</a>
-            <a class="le-strategy-link" href="/all-wheeling-systems">All Wheeling Systems</a>
-            <a class="le-strategy-link" href="/membership/my-dashboard">My LottoExpert Workspace</a>
+          <div class="le-button-row">
+            <a class="le-btn le-btn-dark" href="/membership/my-dashboard">Open My LottoExpert</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+<section class="le-section">
+    <div class="le-card le-predictions">
+      <p class="le-kicker le-kicker-blue">Predictions</p>
+      <h2 class="le-title-lg">Fastest path into SKAI and AI predictions</h2>
+      <p class="le-copy-lg">
+        If you are ready to act now, start here. Then validate those outputs with history, pattern tools, and tracked outcomes.
+      </p>
+
+      <div class="le-predictions-grid">
+        <div class="le-panel le-predictions-card le-predictions-card-highlight">
+          <p class="le-kicker le-kicker-blue">Flagship option</p>
+          <h3 class="le-title-md">SKAI flagship AI</h3>
+          <p class="le-copy">
+            Run the flagship combined-analysis engine that brings multiple forms of lottery data together into a clearer prediction model.
+          </p>
+          <ul class="le-predictions-list">
+            <li>Ranked number outputs</li>
+            <li>Combined analytical signals</li>
+            <li>A stronger starting point for comparison</li>
+          </ul>
+          <div class="le-button-row">
+            <a class="le-btn le-btn-dark" href="/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=101">Open SKAI for Powerball</a>
+          </div>
+        </div>
+
+        <div class="le-panel le-predictions-card">
+          <p class="le-kicker le-kicker-blue">Alternate option</p>
+          <h3 class="le-title-md">Traditional AI</h3>
+          <p class="le-copy">
+            Generate AI predictions using classic model configurations and compare them with SKAI results for deeper insight.
+          </p>
+          <ul class="le-predictions-list">
+            <li>Traditional AI prediction runs</li>
+            <li>Useful comparison against SKAI</li>
+            <li>A familiar path for users who want another view</li>
+          </ul>
+          <div class="le-button-row">
+            <a class="le-btn le-btn-outline" href="/picking-winning-numbers/artificial-intelligence/ai-powered-predictions">Open Traditional AI</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="le-section">
+    <div class="le-card le-quick-access">
+      <p class="le-kicker le-kicker-blue">Quick access</p>
+      <h2 class="le-title-lg">Direct routes across LottoExpert</h2>
+      <p class="le-copy-lg">
+        Use direct routes for account tasks, lottery tools, and learning resources without losing your place in the workflow.
+      </p>
+
+      <div class="le-quick-grid">
+        <article class="le-panel le-quick-card">
+          <h3>Membership and account</h3>
+          <p class="le-copy">
+            Go directly to your workspace, account access, or subscription pages.
+          </p>
+          <div class="le-quick-links">
+            <a class="le-quick-link" href="/membership/my-dashboard">My LottoExpert</a>
+            <a class="le-quick-link" href="/membership/members-login">Login</a>
+            <a class="le-quick-link" href="/membership/lottoexpert-subscriptions">Subscriptions</a>
+            <a class="le-quick-link" href="/membership/subscription-management">Manage subscription</a>
+          </div>
+        </article>
+
+        <article class="le-panel le-quick-card">
+          <h3>Major lottery pages</h3>
+          <p class="le-copy">
+            Go directly to major supported lottery pages that already have dedicated destinations.
+          </p>
+          <div class="le-quick-links">
+            <a class="le-quick-link" href="/powerball-winning-numbers-analysis-tools">Powerball</a>
+            <a class="le-quick-link" href="/megamillions-winning-numbers-analysis-tools">Mega Millions</a>
+            <a class="le-quick-link" href="/euromillions">EuroMillions</a>
+            <a class="le-quick-link" href="/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=145">Millionaire for Life</a>
+          </div>
+        </article>
+
+        <article class="le-panel le-quick-card">
+          <h3>Tools and learning</h3>
+          <p class="le-copy">
+            Start from platform tools and educational pages before moving into deeper analysis.
+          </p>
+          <div class="le-quick-links">
+            <a class="le-quick-link" href="/all-wheeling-systems">Wheeling systems</a>
+            <a class="le-quick-link" href="/best-lottery-strategy">Best Lottery Strategy</a>
+            <a class="le-quick-link" href="/ai-settings-explorer">AI settings explorer</a>
+            <a class="le-quick-link" href="/blog/how-to-use-lottoexpert">How to use LottoExpert</a>
+            <a class="le-quick-link" href="/picking-winning-numbers/revolutionizing-lottery-predictions-ai-neural-networks-and-statistical-insights">AI white paper</a>
+          </div>
+        </article>
+
+        <article class="le-panel le-quick-card">
+          <h3>Best next step for new users</h3>
+          <p class="le-copy">
+            If you are new, start with the workflow and membership path first so the platform makes more sense.
+          </p>
+          <div class="le-quick-links">
+            <a class="le-quick-link" href="/blog/how-to-use-lottoexpert">Learn the workflow</a>
+            <a class="le-quick-link" href="/membership/lottoexpert-subscriptions">Start free</a>
           </div>
         </article>
       </div>
@@ -1751,10 +1852,10 @@
 
 <section class="le-section">
     <div class="le-card le-learning-feature">
-      <p class="le-kicker le-kicker-blue">SKAI learning advantage</p>
-      <h2 class="le-title-lg">Why SKAI gets smarter over time</h2>
+      <p class="le-kicker le-kicker-blue">Learning advantage</p>
+      <h2 class="le-title-lg">Why SKAI becomes more useful over time</h2>
       <p class="le-copy-lg">
-        SKAI is designed to do more than generate predictions. It improves through tracked outcomes, per-lottery learning, stronger continuity, and a more disciplined long-term workflow inside LottoExpert.
+        SKAI is designed to do more than generate a single run. Its value grows through per-lottery learning, tracked outcomes, and continuity inside My LottoExpert.
       </p>
 
       <div class="le-learning-feature-grid">
@@ -1814,13 +1915,12 @@
     </div>
   </section>
 
-
-  <section class="le-section">
+<section class="le-section">
     <div class="le-card le-skai-hybrid">
       <p class="le-kicker le-kicker-blue">How SKAI works</p>
-      <h2 class="le-title-lg">How SKAI works at a high level</h2>
+      <h2 class="le-title-lg">What SKAI is and how it works</h2>
       <p class="le-copy-lg">
-        SKAI is designed to be understood directly, without forcing you to leave the page. Here you can see what the system is, how it approaches analysis, why it is different, and what it responsibly does not claim.
+        This overview explains what SKAI does, how it analyzes lotteries, and what it responsibly does not claim so new users can stay oriented.
       </p>
 
       <div class="le-skai-hybrid-grid">
@@ -1932,12 +2032,12 @@
     </div>
   </section>
 
-  <section class="le-section">
+<section class="le-section">
     <div class="le-card le-value-banner">
-      <p class="le-kicker le-kicker-blue">Why this matters</p>
-      <h2 class="le-title-lg">More than just numbers</h2>
+      <p class="le-kicker le-kicker-blue">Why predictions alone are not enough</p>
+      <h2 class="le-title-lg">From predictions to better decisions</h2>
       <p class="le-copy-lg">
-        SKAI predictions can give you a stronger starting point. LottoExpert helps you evaluate, compare, narrow, and organize that starting point so your decisions feel more disciplined and less random.
+        Predictions are the starting point. LottoExpert helps you evaluate, compare, narrow, and organize those numbers before you commit to a play.
       </p>
 
       <div class="le-value-grid">
@@ -1957,156 +2057,53 @@
     </div>
   </section>
 
-  <section class="le-section">
-    <div class="le-card le-start">
-      <p class="le-kicker le-kicker-blue">Start here</p>
-      <h2 class="le-title-lg">Three clear ways to begin</h2>
+<section class="le-section">
+    <div class="le-card le-membership">
+      <p class="le-kicker le-kicker-blue">My LottoExpert</p>
+      <h2 class="le-title-lg">Where analysis becomes a repeatable system</h2>
       <p class="le-copy-lg">
-        Choose the path that best matches what you want to do first: start with membership, open a featured lottery page, or learn how the platform fits together.
+        My LottoExpert gives members a structured workspace for dashboard control, deeper analysis, tracking, and ongoing refinement.
       </p>
 
-      <div class="le-start-grid">
-        <article class="le-panel le-start-card">
-          <h3 class="le-title-md">Start with membership</h3>
-          <p class="le-copy">
-            Create a free account to access LottoExpert tools, predictions, and your member workflow before deciding how deeply you want to go.
-          </p>
-          <div class="le-button-row">
-            <a class="le-btn le-btn-dark" href="/membership/lottoexpert-subscriptions">Start free</a>
-          </div>
-        </article>
-
-        <article class="le-panel le-start-card">
-          <h3 class="le-title-md">Open a featured lottery page</h3>
-          <p class="le-copy">
-            Start from a major supported lottery page when you want direct access to results, analysis, and prediction tools without guessing where to click.
-          </p>
-          <div class="le-button-row">
-            <a class="le-btn le-btn-dark" href="/powerball-winning-numbers-analysis-tools">Open Powerball tools</a>
-          </div>
-        </article>
-
-        <article class="le-panel le-start-card">
-          <h3 class="le-title-md">Learn how it fits together</h3>
-          <p class="le-copy">
-            New users can see how LottoExpert, SKAI, historical tools, and My LottoExpert work together before going deeper.
-          </p>
-          <div class="le-button-row">
-            <a class="le-btn le-btn-dark" href="/blog/how-to-use-lottoexpert">How to use LottoExpert</a>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="le-section">
-    <div class="le-card le-quick-access">
-      <p class="le-kicker le-kicker-blue">Quick access</p>
-      <h2 class="le-title-lg">Go exactly where you need to go</h2>
-      <p class="le-copy-lg">
-        Start from your dashboard, memberships, wheeling systems, learning resources, or major lottery pages without getting sent to the wrong state.
-      </p>
-
-      <div class="le-quick-grid">
-        <article class="le-panel le-quick-card">
-          <h3>Membership and account</h3>
-          <p class="le-copy">
-            Go directly to your workspace, account access, or subscription pages.
-          </p>
-          <div class="le-quick-links">
-            <a class="le-quick-link" href="/membership/my-dashboard">My LottoExpert</a>
-            <a class="le-quick-link" href="/membership/members-login">Login</a>
-            <a class="le-quick-link" href="/membership/lottoexpert-subscriptions">Subscriptions</a>
-            <a class="le-quick-link" href="/membership/subscription-management">Manage subscription</a>
-          </div>
-        </article>
-
-        <article class="le-panel le-quick-card">
-          <h3>Major lottery pages</h3>
-          <p class="le-copy">
-            Go directly to major supported lottery pages that already have dedicated destinations.
-          </p>
-          <div class="le-quick-links">
-            <a class="le-quick-link" href="/powerball-winning-numbers-analysis-tools">Powerball</a>
-            <a class="le-quick-link" href="/megamillions-winning-numbers-analysis-tools">Mega Millions</a>
-            <a class="le-quick-link" href="/euromillions">EuroMillions</a>
-            <a class="le-quick-link" href="/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=145">Millionaire for Life</a>
-          </div>
-        </article>
-
-        <article class="le-panel le-quick-card">
-          <h3>Tools and learning</h3>
-          <p class="le-copy">
-            Start from platform tools and educational pages before moving into deeper analysis.
-          </p>
-          <div class="le-quick-links">
-            <a class="le-quick-link" href="/all-wheeling-systems">Wheeling systems</a>
-            <a class="le-quick-link" href="/best-lottery-strategy">Best Lottery Strategy</a>
-            <a class="le-quick-link" href="/ai-settings-explorer">AI settings explorer</a>
-            <a class="le-quick-link" href="/blog/how-to-use-lottoexpert">How to use LottoExpert</a>
-            <a class="le-quick-link" href="/picking-winning-numbers/revolutionizing-lottery-predictions-ai-neural-networks-and-statistical-insights">AI white paper</a>
-          </div>
-        </article>
-
-        <article class="le-panel le-quick-card">
-          <h3>Best next step for new users</h3>
-          <p class="le-copy">
-            If you are new, start with the workflow and membership path first so the platform makes more sense.
-          </p>
-          <div class="le-quick-links">
-            <a class="le-quick-link" href="/blog/how-to-use-lottoexpert">Learn the workflow</a>
-            <a class="le-quick-link" href="/membership/lottoexpert-subscriptions">Start free</a>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="le-section">
-    <div class="le-card le-predictions">
-      <p class="le-kicker le-kicker-blue">Looking for AI predictions?</p>
-      <h2 class="le-title-lg">Start with predictions. Then refine your numbers with analysis.</h2>
-      <p class="le-copy-lg">
-        Most visitors begin with AI predictions and numbers. LottoExpert helps you go further by comparing those predictions against draw history, identifying patterns, and tracking what actually performs over time.
-      </p>
-
-      <div class="le-predictions-grid">
-        <div class="le-panel le-predictions-card le-predictions-card-highlight">
-          <p class="le-kicker le-kicker-blue">Flagship option</p>
-          <h3 class="le-title-md">SKAI flagship AI</h3>
-          <p class="le-copy">
-            Run the flagship combined-analysis engine that brings multiple forms of lottery data together into a clearer prediction model.
-          </p>
-          <ul class="le-predictions-list">
-            <li>Ranked number outputs</li>
-            <li>Combined analytical signals</li>
-            <li>A stronger starting point for comparison</li>
+      <div class="le-membership-grid">
+        <div class="le-panel le-membership-card">
+          <h3 class="le-title-md">What members gain</h3>
+          <ul class="le-membership-list">
+            <li>Saved analysis history instead of starting from zero every time.</li>
+            <li>A place to compare runs, revisit ideas, and refine strategy over time.</li>
+            <li>Better continuity between SKAI, Traditional AI, and supporting platform tools.</li>
+            <li>A more serious workflow for users who want to work with structure rather than impulse.</li>
           </ul>
-          <div class="le-button-row">
-            <a class="le-btn le-btn-dark" href="/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=101">Open SKAI for Powerball</a>
-          </div>
         </div>
 
-        <div class="le-panel le-predictions-card">
-          <p class="le-kicker le-kicker-blue">Alternate option</p>
-          <h3 class="le-title-md">Traditional AI</h3>
+        <div class="le-panel le-membership-card le-membership-card-premium">
+          <p class="le-kicker le-kicker-success">Start with free access</p>
+          <h3 class="le-title-md">Begin simply. Upgrade when the platform proves its value.</h3>
           <p class="le-copy">
-            Generate AI predictions using classic model configurations and compare them with SKAI results for deeper insight.
+            Create a free account to start using LottoExpert, then move deeper into membership when you want more powerful analysis, more saved continuity, and a stronger personal workflow.
           </p>
-          <ul class="le-predictions-list">
-            <li>Traditional AI prediction runs</li>
-            <li>Useful comparison against SKAI</li>
-            <li>A familiar path for users who want another view</li>
-          </ul>
+
+          <p class="le-copy" style="margin-top:10px;">
+            Want to understand the system first?
+            <a href="/ai-lottery-prediction-how-it-works" style="color:#1C66FF; font-weight:700;">Learn how SKAI works</a>
+          </p>
+
+          <div class="le-callout">
+            <p class="le-copy-sm">
+              Free registration gives users an easy first step into AI predictions and platform tools while preserving a clear upgrade path for deeper use.
+            </p>
+          </div>
+
           <div class="le-button-row">
-            <a class="le-btn le-btn-outline" href="/picking-winning-numbers/artificial-intelligence/ai-powered-predictions">Open Traditional AI</a>
+            <a class="le-btn le-btn-dark" href="/membership/lottoexpert-subscriptions">Create Free Account</a>
+            <a class="le-btn le-btn-outline" href="/membership/my-dashboard">Open My LottoExpert</a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="le-section">
+<section class="le-section">
     <div class="le-card le-screens">
       <p class="le-kicker le-kicker-blue">See the platform in action</p>
       <h2 class="le-title-lg">A real analytical workspace</h2>
@@ -2269,7 +2266,7 @@
     </div>
   </section>
 
-  <section class="le-section">
+<section class="le-section">
     <div class="le-card le-featured">
       <p class="le-kicker le-kicker-blue">Featured lotteries</p>
       <h2 class="le-title-lg">Run AI predictions for major lotteries</h2>
@@ -2327,105 +2324,55 @@
     </div>
   </section>
 
-  <section class="le-section">
-    <div class="le-skai">
-      <div class="le-skai-inner">
-        <div class="le-skai-left">
-          <p class="le-kicker le-kicker-light">SKAI flagship analysis</p>
-          <h2 class="le-title-lg">SKAI is the flagship combined-analysis engine inside LottoExpert</h2>
-          <p class="le-copy-lg">
-            SKAI is not the platform itself. It is LottoExpert's flagship AI analysis system. It brings multiple forms of lottery analysis together to help users see behavior more clearly, compare number patterns more intelligently, and work from a stronger analytical foundation.
-          </p>
-
-          <div class="le-skai-grid">
-            <div class="le-skai-box">
-              <h3 class="le-skai-box-title">Historical analysis</h3>
-              <p class="le-skai-box-copy">Review draw-history behavior, recurring structure, and evolving number tendencies over time.</p>
-            </div>
-            <div class="le-skai-box">
-              <h3 class="le-skai-box-title">Pattern comparison</h3>
-              <p class="le-skai-box-copy">Cross-check outputs with heatmaps, archives, and Skip and Hit analysis for more context.</p>
-            </div>
-            <div class="le-skai-box">
-              <h3 class="le-skai-box-title">Clearer output</h3>
-              <p class="le-skai-box-copy">Get more structured guidance instead of facing disconnected data without interpretation.</p>
-            </div>
-            <div class="le-skai-box">
-              <h3 class="le-skai-box-title">Platform continuity</h3>
-              <p class="le-skai-box-copy">Move from results to analysis to saved strategy without leaving the LottoExpert workflow.</p>
-            </div>
-          </div>
-
-          <div class="le-button-row">
-            <a class="le-btn le-btn-light" href="/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=101">Run SKAI Prediction</a>
-            <a class="le-btn le-btn-ghost" href="/ai-lottery-prediction-how-it-works">See How SKAI Thinks</a>
-          </div>
-        </div>
-
-        <aside class="le-skai-right">
-          <div class="le-skai-panel">
-            <h3 class="le-skai-panel-title">What SKAI brings together</h3>
-            <ul class="le-skai-panel-list">
-              <li>Historical draw analysis</li>
-              <li>Skip and Hit interpretation</li>
-              <li>Trend and repeat behavior</li>
-              <li>Cross-checking with supporting LottoExpert tools</li>
-              <li>A clearer starting point for more disciplined number decisions</li>
-            </ul>
-          </div>
-        </aside>
-      </div>
-    </div>
-  </section>
-
-
-  <section class="le-section">
-    <div class="le-card le-membership">
-      <p class="le-kicker le-kicker-blue">My LottoExpert</p>
-      <h2 class="le-title-lg">Where analysis becomes a repeatable system</h2>
+<section class="le-section">
+    <div class="le-card le-strategy-hub">
+      <p class="le-kicker le-kicker-blue">Strategy and learning routes</p>
+      <h2 class="le-title-lg">Build stronger context with strategy resources</h2>
       <p class="le-copy-lg">
-        My LottoExpert gives members a structured workspace for dashboard control, deeper analysis, tracking, and ongoing refinement.
+        When you want deeper context, use these pages to understand strategy, randomness, number selection, and wheeling systems in plain language.
       </p>
 
-      <div class="le-membership-grid">
-        <div class="le-panel le-membership-card">
-          <h3 class="le-title-md">What members gain</h3>
-          <ul class="le-membership-list">
-            <li>Saved analysis history instead of starting from zero every time.</li>
-            <li>A place to compare runs, revisit ideas, and refine strategy over time.</li>
-            <li>Better continuity between SKAI, Traditional AI, and supporting platform tools.</li>
-            <li>A more serious workflow for users who want to work with structure rather than impulse.</li>
-          </ul>
-        </div>
-
-        <div class="le-panel le-membership-card le-membership-card-premium">
-          <p class="le-kicker le-kicker-success">Start with free access</p>
-          <h3 class="le-title-md">Begin simply. Upgrade when the platform proves its value.</h3>
+      <div class="le-strategy-grid">
+        <article class="le-panel le-strategy-card">
+          <h3>Start with the big picture</h3>
           <p class="le-copy">
-            Create a free account to start using LottoExpert, then move deeper into membership when you want more powerful analysis, more saved continuity, and a stronger personal workflow.
+            If you want the clearest overview of how smarter lottery play works, begin with the main strategy page and then move into number selection and odds.
           </p>
+          <div class="le-strategy-links">
+            <a class="le-strategy-link" href="/best-lottery-strategy">Best Lottery Strategy</a>
+            <a class="le-strategy-link" href="/picking-winning-numbers/how-to-pick-numbers">How to Pick Lottery Numbers</a>
+            <a class="le-strategy-link" href="/picking-winning-numbers/lottery-odds-explained">Lottery Odds Explained</a>
+          </div>
+        </article>
 
-          <p class="le-copy" style="margin-top:10px;">
-            Want to understand the system first?
-            <a href="/ai-lottery-prediction-how-it-works" style="color:#1C66FF; font-weight:700;">Learn how SKAI works</a>
+        <article class="le-panel le-strategy-card">
+          <h3>Learn how the game really works</h3>
+          <p class="le-copy">
+            These guides help explain randomness, strategy myths, and why structured play is different from guessing without a process.
           </p>
-
-          <div class="le-callout">
-            <p class="le-copy-sm">
-              Free registration gives users an easy first step into AI predictions and platform tools while preserving a clear upgrade path for deeper use.
-            </p>
+          <div class="le-strategy-links">
+            <a class="le-strategy-link" href="/picking-winning-numbers/are-lottery-numbers-random">Are Lottery Numbers Random?</a>
+            <a class="le-strategy-link" href="/picking-winning-numbers/do-lottery-strategies-work">Do Lottery Strategies Work?</a>
+            <a class="le-strategy-link" href="/picking-winning-numbers/lottery-wheeling-systems-explained">Wheeling Systems Explained</a>
           </div>
+        </article>
 
-          <div class="le-button-row">
-            <a class="le-btn le-btn-dark" href="/membership/lottoexpert-subscriptions">Create Free Account</a>
-            <a class="le-btn le-btn-outline" href="/membership/my-dashboard">Open My LottoExpert</a>
+        <article class="le-panel le-strategy-card">
+          <h3>Go deeper into tools and systems</h3>
+          <p class="le-copy">
+            If you already know what you want, jump straight into a major strategy page, explore structured wheeling systems, or open your LottoExpert workspace.
+          </p>
+          <div class="le-strategy-links">
+            <a class="le-strategy-link" href="/powerball-strategy">Powerball Strategy</a>
+            <a class="le-strategy-link" href="/all-wheeling-systems">All Wheeling Systems</a>
+            <a class="le-strategy-link" href="/membership/my-dashboard">My LottoExpert Workspace</a>
           </div>
-        </div>
+        </article>
       </div>
     </div>
   </section>
 
-  <section class="le-section">
+<section class="le-section">
     <div class="le-card le-learn">
       <p class="le-kicker le-kicker-blue">Learn and explore</p>
       <h2 class="le-title-lg">Understand the platform with confidence</h2>
@@ -2472,7 +2419,7 @@
     </div>
   </section>
 
-  <section class="le-section">
+<section class="le-section">
     <div class="le-card le-method">
       <p class="le-kicker le-kicker-blue">The narrowing method</p>
       <h2 class="le-title-lg">How the process works</h2>
@@ -2506,8 +2453,58 @@
     </div>
   </section>
 
+<section class="le-section">
+    <div class="le-skai">
+      <div class="le-skai-inner">
+        <div class="le-skai-left">
+          <p class="le-kicker le-kicker-light">SKAI deep dive</p>
+          <h2 class="le-title-lg">How SKAI fits inside the broader LottoExpert platform</h2>
+          <p class="le-copy-lg">
+            LottoExpert is the full platform experience. SKAI is the flagship learning engine inside it, built to give a stronger analytical starting point before users move into deeper platform tools.
+          </p>
 
-  <section class="le-section">
+          <div class="le-skai-grid">
+            <div class="le-skai-box">
+              <h3 class="le-skai-box-title">Historical analysis</h3>
+              <p class="le-skai-box-copy">Review draw-history behavior, recurring structure, and evolving number tendencies over time.</p>
+            </div>
+            <div class="le-skai-box">
+              <h3 class="le-skai-box-title">Pattern comparison</h3>
+              <p class="le-skai-box-copy">Cross-check outputs with heatmaps, archives, and Skip and Hit analysis for more context.</p>
+            </div>
+            <div class="le-skai-box">
+              <h3 class="le-skai-box-title">Clearer output</h3>
+              <p class="le-skai-box-copy">Get more structured guidance instead of facing disconnected data without interpretation.</p>
+            </div>
+            <div class="le-skai-box">
+              <h3 class="le-skai-box-title">Platform continuity</h3>
+              <p class="le-skai-box-copy">Move from results to analysis to saved strategy without leaving the LottoExpert workflow.</p>
+            </div>
+          </div>
+
+          <div class="le-button-row">
+            <a class="le-btn le-btn-light" href="/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=101">Run SKAI Prediction</a>
+            <a class="le-btn le-btn-ghost" href="/ai-lottery-prediction-how-it-works">See How SKAI Thinks</a>
+          </div>
+        </div>
+
+        <aside class="le-skai-right">
+          <div class="le-skai-panel">
+            <h3 class="le-skai-panel-title">What SKAI brings together</h3>
+            <ul class="le-skai-panel-list">
+              <li>Historical draw analysis</li>
+              <li>Skip and Hit interpretation</li>
+              <li>Trend and repeat behavior</li>
+              <li>Cross-checking with supporting LottoExpert tools</li>
+              <li>A clearer starting point for more disciplined number decisions</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+<section class="le-section">
     <div class="le-card le-aio">
       <p class="le-kicker le-kicker-blue">Clarity and trust</p>
       <h2 class="le-title-lg">What LottoExpert and SKAI are designed to help you do</h2>
@@ -2575,7 +2572,7 @@
     </div>
   </section>
 
-  <section class="le-section">
+<section class="le-section">
     <div class="le-card le-directory">
       <div class="le-directory-inner">
         <div>
@@ -2592,6 +2589,40 @@
       </div>
     </div>
   </section>
+
+  
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+
+  
+
+  
 
   <div class="le-lightbox" id="le-home-lightbox" aria-hidden="true">
     <div class="le-lightbox-dialog" role="dialog" aria-modal="true" aria-labelledby="le-home-lightbox-title">
