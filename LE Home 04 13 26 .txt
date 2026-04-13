@@ -1,0 +1,2690 @@
+<style>
+.le-home-v3 {
+  --le-blue: #1C66FF;
+  --le-navy: #0A1A33;
+  --le-gray: #EFEFF5;
+  --le-slate: #7F8DAA;
+  --le-success: #20C997;
+  --le-amber: #F5A623;
+  --le-white: #FFFFFF;
+  --le-text: #10233F;
+  --le-text-soft: #5E6C84;
+  --le-border: rgba(10, 26, 51, 0.10);
+  --le-border-strong: rgba(28, 102, 255, 0.16);
+  --le-shadow-soft: 0 12px 28px rgba(10, 26, 51, 0.08);
+  --le-shadow-medium: 0 18px 38px rgba(10, 26, 51, 0.12);
+  --le-shadow-strong: 0 28px 70px rgba(10, 26, 51, 0.20);
+  --le-radius-xl: 30px;
+  --le-radius-lg: 22px;
+  --le-radius-md: 16px;
+  --le-deep-horizon: linear-gradient(135deg, #0A1A33 0%, #1C66FF 100%);
+  --le-radiant-blue: linear-gradient(135deg, #1C66FF 0%, #7F8DAA 100%);
+  --le-slate-mist: linear-gradient(180deg, #EFEFF5 0%, #FFFFFF 100%);
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 18px 84px;
+  box-sizing: border-box;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: var(--le-text);
+}
+
+.le-home-v3 *,
+.le-home-v3 *:before,
+.le-home-v3 *:after {
+  box-sizing: border-box;
+}
+
+.le-home-v3 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.le-home-v3 a {
+  text-decoration: none;
+}
+
+.le-home-v3 .le-section {
+  margin-top: 36px;
+}
+
+.le-home-v3 .le-card {
+  background: var(--le-slate-mist);
+  border: 1px solid var(--le-border);
+  border-radius: var(--le-radius-xl);
+  box-shadow: var(--le-shadow-soft);
+}
+
+.le-home-v3 .le-panel {
+  background: #FFFFFF;
+  border: 1px solid var(--le-border);
+  border-radius: 22px;
+  box-shadow: 0 10px 24px rgba(10, 26, 51, 0.05);
+}
+
+.le-home-v3 .le-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 14px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.le-home-v3 .le-kicker-light {
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #DCE7FF;
+}
+
+.le-home-v3 .le-kicker-blue {
+  background: #EFF4FF;
+  border: 1px solid #D9E6FF;
+  color: var(--le-blue);
+}
+
+.le-home-v3 .le-kicker-success {
+  background: rgba(32, 201, 151, 0.10);
+  border: 1px solid rgba(32, 201, 151, 0.18);
+  color: var(--le-success);
+}
+
+.le-home-v3 .le-title-xl {
+  margin: 0 0 16px;
+  font-size: 54px;
+  line-height: 1.01;
+  letter-spacing: -0.04em;
+  font-weight: 880;
+  color: #FFFFFF;
+}
+
+.le-home-v3 .le-title-lg {
+  margin: 0 0 10px;
+  font-size: 34px;
+  line-height: 1.10;
+  letter-spacing: -0.025em;
+  font-weight: 850;
+  color: var(--le-navy);
+}
+
+.le-home-v3 .le-title-md {
+  margin: 0 0 8px;
+  font-size: 21px;
+  line-height: 1.24;
+  font-weight: 800;
+  color: var(--le-navy);
+}
+
+.le-home-v3 .le-copy-xl {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.82;
+}
+
+.le-home-v3 .le-copy-lg {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.80;
+}
+
+.le-home-v3 .le-copy {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.76;
+  color: var(--le-text-soft);
+}
+
+.le-home-v3 .le-copy-sm {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.70;
+  color: var(--le-text-soft);
+}
+
+.le-home-v3 .le-button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.le-home-v3 .le-button-row-no-top {
+  margin-top: 0;
+}
+
+.le-home-v3 .le-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  padding: 0 20px;
+  border-radius: 999px;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease, border-color 0.16s ease, color 0.16s ease;
+  text-align: center;
+  cursor: pointer;
+}
+
+.le-home-v3 .le-btn:hover,
+.le-home-v3 .le-btn:focus {
+  transform: translateY(-1px);
+  outline: 2px solid rgba(245, 166, 35, 0.90);
+  outline-offset: 2px;
+}
+
+.le-home-v3 .le-btn-light {
+  color: var(--le-navy);
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.le-home-v3 .le-btn-dark {
+  color: #FFFFFF;
+  background: var(--le-deep-horizon);
+  border: 1px solid rgba(10, 26, 51, 0.08);
+  box-shadow: 0 12px 28px rgba(10, 26, 51, 0.14);
+}
+
+.le-home-v3 .le-btn-ghost {
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.le-home-v3 .le-btn-outline {
+  color: var(--le-blue);
+  background: #FFFFFF;
+  border: 1px solid rgba(28, 102, 255, 0.18);
+  box-shadow: 0 10px 20px rgba(10, 26, 51, 0.06);
+}
+
+.le-home-v3 .le-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.le-home-v3 .le-value-banner {
+  padding: 24px 24px 22px;
+}
+
+.le-home-v3 .le-value-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.le-home-v3 .le-value-item {
+  padding: 18px 18px 16px;
+}
+
+.le-home-v3 .le-value-item strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--le-navy);
+  font-size: 15px;
+}
+
+.le-home-v3 .le-value-item .le-copy {
+  color: var(--le-text-soft);
+}
+
+/* HERO */
+.le-home-v3 .le-hero {
+  position: relative;
+  overflow: hidden;
+  background: var(--le-deep-horizon);
+  color: #FFFFFF;
+  border-radius: 34px;
+  box-shadow: var(--le-shadow-strong);
+  padding: 54px 42px 46px;
+}
+
+.le-home-v3 .le-hero:before {
+  content: "";
+  position: absolute;
+  top: -140px;
+  right: -110px;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.le-home-v3 .le-hero:after {
+  content: "";
+  position: absolute;
+  left: -80px;
+  bottom: -120px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.le-home-v3 .le-hero-inner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.32fr) minmax(320px, 0.68fr);
+  gap: 28px;
+  align-items: start;
+}
+
+.le-home-v3 .le-hero-brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.le-home-v3 .le-hero-brand img {
+  width: auto;
+  height: 70px;
+  object-fit: contain;
+}
+
+.le-home-v3 .le-hero-brand-name {
+  margin: 0 0 4px;
+  font-size: 21px;
+  line-height: 1.1;
+  font-weight: 850;
+  color: #FFFFFF;
+}
+
+.le-home-v3 .le-hero-brand-sub {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.le-home-v3 .le-hero .le-copy-xl,
+.le-home-v3 .le-hero .le-copy-lg,
+.le-home-v3 .le-hero .le-copy {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.le-home-v3 .le-hero-note {
+  margin-top: 14px;
+  font-size: 13px;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.le-home-v3 .le-hero-side {
+  display: grid;
+  gap: 14px;
+}
+
+.le-home-v3 .le-hero-proof,
+.le-home-v3 .le-hero-convert {
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  padding: 20px 18px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.le-home-v3 .le-hero-proof-title,
+.le-home-v3 .le-hero-convert-title {
+  margin: 0 0 10px;
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.le-home-v3 .le-hero-proof-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.le-home-v3 .le-hero-proof-list li {
+  position: relative;
+  margin: 0 0 12px;
+  padding-left: 18px;
+  font-size: 14px;
+  line-height: 1.68;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.le-home-v3 .le-hero-proof-list li:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--le-success);
+}
+
+.le-home-v3 .le-hero-convert-copy {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.68;
+  color: rgba(255, 255, 255, 0.90);
+}
+
+/* PROOF STRIP */
+.le-home-v3 .le-proof-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.le-home-v3 .le-proof-item {
+  background: #FFFFFF;
+  border: 1px solid var(--le-border);
+  border-radius: 20px;
+  padding: 18px 16px 16px;
+  box-shadow: 0 10px 24px rgba(10, 26, 51, 0.05);
+}
+
+.le-home-v3 .le-proof-item strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--le-navy);
+  font-size: 15px;
+}
+
+/* START HERE */
+.le-home-v3 .le-start {
+  padding: 34px 30px 30px;
+}
+
+.le-home-v3 .le-start-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.le-home-v3 .le-start-card {
+  padding: 22px 18px 18px;
+}
+
+
+/* STRATEGY HUB LINKS */
+.le-home-v3 .le-strategy-hub {
+  padding: 34px 30px 30px;
+}
+
+.le-home-v3 .le-strategy-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.le-home-v3 .le-strategy-card {
+  padding: 22px 18px 18px;
+}
+
+.le-home-v3 .le-strategy-card h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  line-height: 1.26;
+  font-weight: 800;
+  color: var(--le-navy);
+}
+
+.le-home-v3 .le-strategy-card .le-copy {
+  min-height: 96px;
+}
+
+.le-home-v3 .le-strategy-links {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.le-home-v3 .le-strategy-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  color: var(--le-blue);
+  background: #FFFFFF;
+  border: 1px solid rgba(28, 102, 255, 0.18);
+  box-shadow: 0 8px 18px rgba(10, 26, 51, 0.05);
+  transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
+}
+
+.le-home-v3 .le-strategy-link:hover,
+.le-home-v3 .le-strategy-link:focus {
+  transform: translateY(-1px);
+  border-color: rgba(28, 102, 255, 0.28);
+  box-shadow: 0 12px 24px rgba(10, 26, 51, 0.08);
+  outline: 2px solid rgba(245, 166, 35, 0.90);
+  outline-offset: 2px;
+}
+
+@media (max-width: 1080px) {
+  .le-home-v3 .le-strategy-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .le-home-v3 .le-strategy-card .le-copy {
+    min-height: 0;
+  }
+}
+
+
+/* QUICK ACCESS */
+.le-home-v3 .le-quick-access {
+  padding: 34px 30px 30px;
+}
+
+.le-home-v3 .le-quick-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.le-home-v3 .le-quick-card {
+  padding: 20px 18px 18px;
+}
+
+.le-home-v3 .le-quick-card h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  line-height: 1.28;
+  font-weight: 800;
+  color: var(--le-navy);
+}
+
+.le-home-v3 .le-quick-links {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.le-home-v3 .le-quick-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  color: var(--le-blue);
+  background: #FFFFFF;
+  border: 1px solid rgba(28, 102, 255, 0.18);
+  box-shadow: 0 8px 18px rgba(10, 26, 51, 0.05);
+  transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
+}
+
+.le-home-v3 .le-quick-link:hover,
+.le-home-v3 .le-quick-link:focus {
+  transform: translateY(-1px);
+  border-color: rgba(28, 102, 255, 0.28);
+  box-shadow: 0 12px 24px rgba(10, 26, 51, 0.08);
+  outline: 2px solid rgba(245, 166, 35, 0.90);
+  outline-offset: 2px;
+}
+
+/* PREDICTIONS */
+.le-home-v3 .le-predictions {
+  padding: 34px 30px 30px;
+}
+
+.le-home-v3 .le-predictions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.le-home-v3 .le-predictions-card {
+  padding: 22px 20px 20px;
+}
+
+.le-home-v3 .le-predictions-card-highlight {
+  border-color: var(--le-border-strong);
+  box-shadow: 0 18px 34px rgba(28, 102, 255, 0.10);
+}
+
+.le-home-v3 .le-predictions-list {
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.le-home-v3 .le-predictions-list li {
+  position: relative;
+  margin: 0 0 10px;
+  padding-left: 18px;
+  font-size: 14px;
+  line-height: 1.68;
+  color: var(--le-text-soft);
+}
+
+.le-home-v3 .le-predictions-list li:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--le-blue);
+}
+
+/* SCREENSHOTS */
+.le-home-v3 .le-screens {
+  padding: 36px 32px 32px;
+}
+
+.le-home-v3 .le-screens-grid {
+  display: grid;
+  grid-template-columns: 1.08fr 0.92fr;
+  gap: 20px;
+  margin-top: 22px;
+}
+
+.le-home-v3 .le-screen-feature {
+  display: grid;
+  gap: 16px;
+}
+
+.le-home-v3 .le-screen-stack {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  align-content: start;
+}
+
+.le-home-v3 .le-screen-card {
+  overflow: hidden;
+}
+
+.le-home-v3 .le-screen-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 16px;
+  border-bottom: 1px solid rgba(10, 26, 51, 0.08);
+  background: #F9FBFF;
+}
+
+.le-home-v3 .le-screen-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #D4DDEA;
+}
+
+.le-home-v3 .le-screen-dot.is-blue {
+  background: var(--le-blue);
+}
+
+.le-home-v3 .le-screen-title {
+  margin-left: 6px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--le-slate);
+}
+
+.le-home-v3 .le-screen-image-wrap {
+  padding: 12px;
+  background: linear-gradient(180deg, #F6F9FF 0%, #FFFFFF 100%);
+}
+
+.le-home-v3 .le-screen-trigger {
+  display: block;
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: zoom-in;
+}
+
+.le-home-v3 .le-screen-trigger:focus {
+  outline: 2px solid rgba(245, 166, 35, 0.90);
+  outline-offset: 3px;
+}
+
+.le-home-v3 .le-screen-trigger:after {
+  content: "Click to enlarge";
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: rgba(10, 26, 51, 0.82);
+  color: #FFFFFF;
+  font-size: 11px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  box-shadow: 0 8px 18px rgba(10, 26, 51, 0.18);
+}
+
+.le-home-v3 .le-screen-trigger:hover .le-screen-image {
+  transform: scale(1.01);
+}
+
+.le-home-v3 .le-screen-image {
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 12px 26px rgba(10, 26, 51, 0.10);
+  border: 1px solid rgba(10, 26, 51, 0.08);
+  transition: transform 0.18s ease;
+}
+
+.le-home-v3 .le-screen-caption {
+  padding: 0 16px 16px;
+}
+
+.le-home-v3 .le-screen-caption-with-top {
+  padding-top: 18px;
+}
+
+.le-home-v3 .le-screen-caption h3 {
+  margin: 0 0 6px;
+  font-size: 18px;
+  line-height: 1.28;
+  font-weight: 800;
+  color: var(--le-navy);
+}
+
+/* LIGHTBOX */
+.le-home-v3 .le-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;
+  background: rgba(5, 15, 30, 0.86);
+}
+
+.le-home-v3 .le-lightbox.is-open {
+  display: flex;
+}
+
+.le-home-v3 .le-lightbox-dialog {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  max-height: 92vh;
+  border-radius: 24px;
+  overflow: hidden;
+  background: #0A1A33;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.40);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.le-home-v3 .le-lightbox-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 14px 18px;
+  background: linear-gradient(135deg, #0A1A33 0%, #1C66FF 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.le-home-v3 .le-lightbox-title {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.le-home-v3 .le-lightbox-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 42px;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.10);
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.le-home-v3 .le-lightbox-close:hover,
+.le-home-v3 .le-lightbox-close:focus {
+  background: rgba(255, 255, 255, 0.18);
+  outline: 2px solid rgba(245, 166, 35, 0.90);
+  outline-offset: 2px;
+}
+
+.le-home-v3 .le-lightbox-body {
+  background: #081426;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: calc(92vh - 72px);
+  overflow: auto;
+}
+
+.le-home-v3 .le-lightbox-image {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: calc(92vh - 110px);
+  border-radius: 14px;
+  background: #FFFFFF;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+}
+
+@media (max-width: 640px) {
+  .le-home-v3 .le-lightbox {
+    padding: 12px;
+  }
+
+  .le-home-v3 .le-lightbox-dialog {
+    border-radius: 18px;
+  }
+
+  .le-home-v3 .le-lightbox-topbar {
+    padding: 12px 14px;
+  }
+
+  .le-home-v3 .le-lightbox-title {
+    font-size: 12px;
+  }
+
+  .le-home-v3 .le-screen-trigger:after {
+    font-size: 10px;
+    padding: 6px 8px;
+  }
+}
+
+/* FEATURED LOTTERIES */
+.le-home-v3 .le-featured {
+  padding: 34px 30px 30px;
+}
+
+.le-home-v3 .le-featured-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.le-home-v3 .le-tile {
+  padding: 20px 16px 18px;
+  text-align: center;
+  transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
+}
+
+.le-home-v3 .le-tile:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 34px rgba(10, 26, 51, 0.10);
+  border-color: rgba(28, 102, 255, 0.24);
+}
+
+.le-home-v3 .le-tile-badge {
+  background: #EFF4FF;
+  color: var(--le-blue);
+  border: 1px solid #D9E6FF;
+  margin-bottom: 10px;
+}
+
+.le-home-v3 .le-tile-logo {
+  max-height: 56px;
+  width: auto;
+  margin: 0 auto 14px;
+  object-fit: contain;
+}
+
+.le-home-v3 .le-tile-title {
+  margin: 0 0 8px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: var(--le-navy);
+}
+
+.le-home-v3 .le-tile-copy {
+  margin: 0 0 14px;
+  min-height: 110px;
+  font-size: 14px;
+  line-height: 1.66;
+  color: var(--le-text-soft);
+}
+
+.le-home-v3 .le-tile-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* SKAI */
+.le-home-v3 .le-skai {
+  overflow: hidden;
+  border-radius: 34px;
+  background: var(--le-deep-horizon);
+  color: #FFFFFF;
+  box-shadow: var(--le-shadow-strong);
+}
+
+.le-home-v3 .le-skai-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.82fr);
+  gap: 26px;
+  padding: 38px 34px;
+}
+
+.le-home-v3 .le-skai .le-title-lg,
+.le-home-v3 .le-skai .le-copy-lg,
+.le-home-v3 .le-skai .le-copy {
+  color: #FFFFFF;
+}
+
+.le-home-v3 .le-skai .le-copy,
+.le-home-v3 .le-skai .le-copy-lg {
+  color: rgba(255, 255, 255, 0.90);
+}
+
+.le-home-v3 .le-skai-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.le-home-v3 .le-skai-box {
+  padding: 14px 14px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.le-home-v3 .le-skai-box-title {
+  margin: 0 0 6px;
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.le-home-v3 .le-skai-box-copy {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.60;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.le-home-v3 .le-skai-panel {
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 22px;
+  padding: 20px 18px;
+}
+
+.le-home-v3 .le-skai-panel-title {
+  margin: 0 0 10px;
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.le-home-v3 .le-skai-panel-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.le-home-v3 .le-skai-panel-list li {
+  position: relative;
+  margin: 0 0 12px;
+  padding-left: 18px;
+  font-size: 14px;
+  line-height: 1.68;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.le-home-v3 .le-skai-panel-list li:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--le-success);
+}
+
+/* MEMBERSHIP */
+.le-home-v3 .le-membership {
+  padding: 34px 30px 30px;
+}
+
+.le-home-v3 .le-membership-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.04fr) minmax(0, 0.96fr);
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.le-home-v3 .le-membership-card {
+  padding: 22px 20px 20px;
+}
+
+.le-home-v3 .le-membership-card-premium {
+  border-color: var(--le-border-strong);
+  box-shadow: 0 18px 34px rgba(28, 102, 255, 0.10);
+}
+
+.le-home-v3 .le-membership-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.le-home-v3 .le-membership-list li {
+  position: relative;
+  margin: 0 0 12px;
+  padding-left: 18px;
+  font-size: 14px;
+  line-height: 1.70;
+  color: var(--le-text-soft);
+}
+
+.le-home-v3 .le-membership-list li:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--le-blue);
+}
+
+.le-home-v3 .le-callout {
+  margin-top: 16px;
+  padding: 14px 14px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(28, 102, 255, 0.08) 0%, rgba(127, 141, 170, 0.08) 100%);
+  border: 1px solid rgba(28, 102, 255, 0.10);
+}
+
+/* LEARNING */
+.le-home-v3 .le-learn {
+  padding: 34px 30px 30px;
+}
+
+.le-home-v3 .le-learn-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.le-home-v3 .le-learn-card {
+  padding: 20px 18px 18px;
+}
+
+.le-home-v3 .le-learn-badge {
+  background: #EFF4FF;
+  color: var(--le-blue);
+  margin-bottom: 10px;
+}
+
+.le-home-v3 .le-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--le-blue);
+}
+
+.le-home-v3 .le-link:after {
+  content: "->";
+}
+
+/* METHOD */
+.le-home-v3 .le-method {
+  padding: 34px 30px 30px;
+}
+
+.le-home-v3 .le-method-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.le-home-v3 .le-method-step {
+  padding: 20px 18px 18px;
+}
+
+.le-home-v3 .le-method-no {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--le-radiant-blue);
+  color: #FFFFFF;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+/* DIRECTORY */
+.le-home-v3 .le-directory {
+  padding: 24px 24px 22px;
+}
+
+.le-home-v3 .le-directory-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: center;
+}
+
+.le-home-v3 .le-directory-title {
+  margin: 0 0 6px;
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: var(--le-navy);
+}
+
+/* AIO / LLM SEO layer */
+.le-home-v3 .le-aio {
+  padding: 34px 30px 30px;
+}
+
+.le-home-v3 .le-aio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.le-home-v3 .le-aio-card {
+  padding: 22px 20px 20px;
+}
+
+.le-home-v3 .le-aio-list {
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.le-home-v3 .le-aio-list li {
+  position: relative;
+  margin: 0 0 10px;
+  padding-left: 18px;
+  font-size: 14px;
+  line-height: 1.68;
+  color: var(--le-text-soft);
+}
+
+.le-home-v3 .le-aio-list li:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--le-blue);
+}
+
+.le-home-v3 .le-faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.le-home-v3 .le-faq-card {
+  padding: 22px 20px 20px;
+}
+
+@media (max-width: 1080px) {
+  .le-home-v3 .le-aio-grid,
+  .le-home-v3 .le-faq-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1080px) {
+  .le-home-v3 .le-proof-strip,
+  .le-home-v3 .le-value-grid,
+  .le-home-v3 .le-start-grid,
+  .le-home-v3 .le-quick-grid,
+  .le-home-v3 .le-predictions-grid,
+  .le-home-v3 .le-featured-grid,
+  .le-home-v3 .le-learn-grid,
+  .le-home-v3 .le-membership-grid,
+  .le-home-v3 .le-skai-inner,
+  .le-home-v3 .le-hero-inner,
+  .le-home-v3 .le-method-grid,
+  .le-home-v3 .le-screens-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .le-home-v3 .le-screen-stack {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .le-home-v3 .le-tile-copy {
+    min-height: 0;
+  }
+}
+
+@media (max-width: 860px) {
+  .le-home-v3 .le-directory-inner,
+  .le-home-v3 .le-skai-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .le-home-v3 {
+    padding: 0 14px 48px;
+  }
+
+  .le-home-v3 .le-hero,
+  .le-home-v3 .le-value-banner,
+  .le-home-v3 .le-start,
+  .le-home-v3 .le-quick-access,
+  .le-home-v3 .le-predictions,
+  .le-home-v3 .le-screens,
+  .le-home-v3 .le-featured,
+  .le-home-v3 .le-skai-inner,
+  .le-home-v3 .le-membership,
+  .le-home-v3 .le-learn,
+  .le-home-v3 .le-method,
+  .le-home-v3 .le-directory {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .le-home-v3 .le-title-xl {
+    font-size: 35px;
+  }
+
+  .le-home-v3 .le-title-lg {
+    font-size: 26px;
+  }
+
+  .le-home-v3 .le-button-row {
+    flex-direction: column;
+  }
+
+  .le-home-v3 .le-btn {
+    width: 100%;
+  }
+
+  .le-home-v3 .le-hero-brand {
+    align-items: flex-start;
+  }
+
+  .le-home-v3 .le-hero-brand img {
+    height: 54px;
+  }
+
+  .le-home-v3 .le-screen-stack {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* AI learning feature */
+.le-home-v3 .le-learning-feature {
+  padding: 40px 36px 34px;
+  background: linear-gradient(180deg, #F7FAFF 0%, #FFFFFF 100%);
+  border: 1px solid rgba(28, 102, 255, 0.14);
+  box-shadow: 0 18px 42px rgba(10, 26, 51, 0.08);
+}
+
+.le-home-v3 .le-learning-feature-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(320px, 0.88fr);
+  gap: 26px;
+  margin-top: 26px;
+  align-items: start;
+}
+
+.le-home-v3 .le-learning-pillars {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 0;
+}
+
+.le-home-v3 .le-learning-pillar {
+  min-height: 100%;
+  padding: 24px 22px 22px;
+}
+
+.le-home-v3 .le-learning-pillar-title {
+  margin: 0 0 8px;
+  font-size: 18px;
+  line-height: 1.25;
+  font-weight: 800;
+  color: var(--le-navy);
+}
+
+.le-home-v3 .le-learning-side {
+  align-self: stretch;
+  padding: 28px 26px 24px;
+  background: linear-gradient(135deg, #0A1A33 0%, #123A74 54%, #1C66FF 100%);
+  color: #FFFFFF;
+  box-shadow: 0 22px 50px rgba(10, 26, 51, 0.18);
+}
+
+.le-home-v3 .le-learning-side .le-copy,
+.le-home-v3 .le-learning-side .le-copy-sm,
+.le-home-v3 .le-learning-side .le-title-md {
+  color: #FFFFFF;
+}
+
+.le-home-v3 .le-learning-side-list {
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.le-home-v3 .le-learning-side-list li {
+  position: relative;
+  margin: 0 0 12px;
+  padding-left: 18px;
+  font-size: 14px;
+  line-height: 1.72;
+  color: rgba(255,255,255,0.92);
+}
+
+.le-home-v3 .le-learning-side-list li:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #F5A623;
+}
+
+.le-home-v3 .le-learning-note {
+  margin-top: 18px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.10);
+  border: 1px solid rgba(255,255,255,0.14);
+}
+
+.le-home-v3 .le-learning-side .le-button-row {
+  margin-top: 22px;
+}
+
+@media (max-width: 1080px) {
+  .le-home-v3 .le-learning-feature {
+    padding: 36px 30px 30px;
+  }
+}
+
+@media (max-width: 920px) {
+  .le-home-v3 .le-learning-feature {
+    padding: 30px 22px 24px;
+  }
+
+  .le-home-v3 .le-learning-feature-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .le-home-v3 .le-learning-side {
+    order: -1;
+    padding: 24px 20px 22px;
+  }
+
+  .le-home-v3 .le-learning-pillars {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .le-home-v3 .le-learning-feature {
+    padding: 24px 16px 18px;
+    border-radius: 24px;
+  }
+
+  .le-home-v3 .le-learning-pillar {
+    padding: 20px 18px;
+  }
+
+  .le-home-v3 .le-learning-side {
+    padding: 22px 18px 20px;
+    border-radius: 24px;
+  }
+
+  .le-home-v3 .le-learning-side .le-button-row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .le-home-v3 .le-learning-side .le-btn {
+    width: 100%;
+  }
+}
+
+
+/* SKAI hybrid authority section */
+.le-home-v3 .le-skai-hybrid {
+  padding: 40px 36px 36px;
+  background:
+    radial-gradient(circle at top right, rgba(28, 102, 255, 0.10), transparent 30%),
+    linear-gradient(180deg, #F8FBFF 0%, #FFFFFF 100%);
+  border: 1px solid rgba(28, 102, 255, 0.14);
+  box-shadow: 0 18px 42px rgba(10, 26, 51, 0.08);
+}
+
+.le-home-v3 .le-skai-hybrid-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(320px, 0.88fr);
+  gap: 24px;
+  margin-top: 24px;
+  align-items: start;
+}
+
+.le-home-v3 .le-skai-hybrid-main {
+  display: grid;
+  gap: 18px;
+}
+
+.le-home-v3 .le-skai-hybrid-callout {
+  padding: 20px 20px 18px;
+  background: linear-gradient(135deg, #0A1A33 0%, #123A74 58%, #1C66FF 100%);
+  color: #FFFFFF;
+  border-radius: 24px;
+  box-shadow: 0 18px 40px rgba(10, 26, 51, 0.18);
+}
+
+.le-home-v3 .le-skai-hybrid-callout .le-title-md,
+.le-home-v3 .le-skai-hybrid-callout .le-copy,
+.le-home-v3 .le-skai-hybrid-callout .le-copy-sm {
+  color: #FFFFFF;
+}
+
+.le-home-v3 .le-skai-hybrid-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.le-home-v3 .le-skai-hybrid-mini {
+  padding: 18px 16px 16px;
+}
+
+.le-home-v3 .le-skai-hybrid-mini strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--le-navy);
+  font-size: 15px;
+}
+
+.le-home-v3 .le-skai-hybrid-mini .le-copy-sm {
+  color: var(--le-text-soft);
+}
+
+.le-home-v3 .le-skai-hybrid-layers {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.le-home-v3 .le-skai-hybrid-layer {
+  padding: 22px 18px 18px;
+  min-height: 100%;
+}
+
+.le-home-v3 .le-skai-hybrid-no {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--le-radiant-blue);
+  color: #FFFFFF;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.le-home-v3 .le-skai-hybrid-panel {
+  padding: 24px 22px 22px;
+  background: linear-gradient(135deg, #0A1A33 0%, #102E5E 52%, #1C66FF 100%);
+  color: #FFFFFF;
+  box-shadow: 0 22px 50px rgba(10, 26, 51, 0.18);
+}
+
+.le-home-v3 .le-skai-hybrid-panel .le-title-md,
+.le-home-v3 .le-skai-hybrid-panel .le-copy,
+.le-home-v3 .le-skai-hybrid-panel .le-copy-sm {
+  color: #FFFFFF;
+}
+
+.le-home-v3 .le-skai-hybrid-flow {
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+
+.le-home-v3 .le-skai-hybrid-flow li {
+  position: relative;
+  padding: 14px 14px 14px 44px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  font-size: 14px;
+  line-height: 1.68;
+  color: rgba(255,255,255,0.92);
+}
+
+.le-home-v3 .le-skai-hybrid-flow li:before {
+  content: attr(data-step);
+  position: absolute;
+  left: 12px;
+  top: 13px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  color: #0A1A33;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.le-home-v3 .le-skai-hybrid-flow strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.le-home-v3 .le-skai-hybrid-limits {
+  display: grid;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.le-home-v3 .le-skai-hybrid-limit {
+  padding: 14px 14px 13px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.10);
+  border: 1px solid rgba(255,255,255,0.14);
+}
+
+.le-home-v3 .le-skai-hybrid-limit strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.le-home-v3 .le-skai-hybrid-limit .le-copy-sm {
+  color: rgba(255,255,255,0.88);
+}
+
+.le-home-v3 .le-skai-hybrid-note {
+  margin-top: 16px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+@media (max-width: 1080px) {
+  .le-home-v3 .le-skai-hybrid {
+    padding: 34px 30px 30px;
+  }
+
+  .le-home-v3 .le-skai-hybrid-grid,
+  .le-home-v3 .le-skai-hybrid-strip,
+  .le-home-v3 .le-skai-hybrid-layers {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .le-home-v3 .le-skai-hybrid {
+    padding: 24px 16px 18px;
+    border-radius: 24px;
+  }
+
+  .le-home-v3 .le-skai-hybrid-callout,
+  .le-home-v3 .le-skai-hybrid-panel,
+  .le-home-v3 .le-skai-hybrid-layer,
+  .le-home-v3 .le-skai-hybrid-mini {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
+
+</style>
+
+<div class="le-home-v3">
+
+  <section class="le-section">
+    <div class="le-hero" aria-labelledby="le-home-v3-title">
+      <div class="le-hero-inner">
+
+        <div class="le-hero-main">
+          <div class="le-hero-brand">
+            <img
+              src="/images/lotto_expert_refined_transparent.png"
+              alt="LottoExpert logo"
+              loading="eager"
+              decoding="async"
+              width="280"
+              height="110">
+            <div>
+              <p class="le-hero-brand-name">LottoExpert</p>
+              <p class="le-hero-brand-sub">SKAI learning, AI lottery predictions, structured analysis, and smarter decision support in one platform.</p>
+            </div>
+          </div>
+
+          <p class="le-kicker le-kicker-light">SKAI learning-powered lottery platform</p>
+
+          <h1 id="le-home-v3-title" class="le-title-xl">
+            SKAI — the lottery AI that learns, not just predicts.
+          </h1>
+
+          <p class="le-copy-xl">
+            Start with a free account, explore predictions and analysis, and use a system where SKAI keeps learning by lottery while My LottoExpert helps you build a more organized long-term process.
+          </p>
+
+          <div class="le-button-row">
+            <a class="le-btn le-btn-light" href="/membership/lottoexpert-subscriptions">Start Free</a>
+            <a class="le-btn le-btn-ghost" href="/picking-winning-numbers/artificial-intelligence/how-skai-tm-works">How SKAI Works</a>
+            <a class="le-btn le-btn-ghost" href="/blog/how-to-use-lottoexpert">Platform Guide</a>
+            <a class="le-btn le-btn-ghost" href="/best-lottery-strategy">Best Lottery Strategy</a>
+          </div>
+
+          <p class="le-hero-note">
+            SKAI is the flagship engine that learns over time inside LottoExpert. Traditional AI remains available separately, while My LottoExpert gives users a place to track, refine, and build continuity around their workflow.
+          </p>
+        </div>
+
+        <div class="le-hero-side">
+          <div class="le-hero-proof">
+            <h2 class="le-hero-proof-title">Why serious users choose LottoExpert</h2>
+            <ul class="le-hero-proof-list">
+              <li>To start with SKAI learning, AI predictions, and clearer ranked outputs before making decisions.</li>
+              <li>To compare predictions with archives, heatmaps, Skip and Hit analysis, and supporting tools in one place.</li>
+              <li>To save work, revisit ideas, and refine a personal workflow over time inside My LottoExpert.</li>
+            </ul>
+          </div>
+
+          <div class="le-hero-convert">
+            <h3 class="le-hero-convert-title">Start free. Go deeper when ready.</h3>
+            <p class="le-hero-convert-copy">
+              Free access gives users an easy first step into predictions and platform tools. Membership expands that into a deeper analytical workflow, stronger continuity, and a more serious long-term process.
+            </p>
+            <div class="le-button-row">
+              <a class="le-btn le-btn-light" href="/membership/lottoexpert-subscriptions">Create Free Account</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="le-proof-strip">
+      <div class="le-proof-item">
+        <strong>Predictions first</strong>
+        Start with structured AI outputs and ranked numbers instead of guessing where to begin.
+      </div>
+      <div class="le-proof-item">
+        <strong>Deeper analysis</strong>
+        Cross-check predictions against historical behavior, repeats, heatmaps, and supporting analysis.
+      </div>
+      <div class="le-proof-item">
+        <strong>Stronger workflow</strong>
+        Move from raw numbers to a clearer, more organized process you can review, track, and refine.
+      </div>
+    </div>
+  </section>
+  <section class="le-section">
+    <div class="le-card le-strategy-hub">
+      <p class="le-kicker le-kicker-blue">Popular starting points</p>
+      <h2 class="le-title-lg">Start where it makes the most sense for you</h2>
+      <p class="le-copy-lg">
+        Some visitors want the full strategy first. Others want to understand odds, see how number selection works, or jump into wheeling systems. These are the most useful places to begin.
+      </p>
+
+      <div class="le-strategy-grid">
+        <article class="le-panel le-strategy-card">
+          <h3>Start with the big picture</h3>
+          <p class="le-copy">
+            If you want the clearest overview of how smarter lottery play works, begin with the main strategy page and then move into number selection and odds.
+          </p>
+          <div class="le-strategy-links">
+            <a class="le-strategy-link" href="/best-lottery-strategy">Best Lottery Strategy</a>
+            <a class="le-strategy-link" href="/picking-winning-numbers/how-to-pick-numbers">How to Pick Lottery Numbers</a>
+            <a class="le-strategy-link" href="/picking-winning-numbers/lottery-odds-explained">Lottery Odds Explained</a>
+          </div>
+        </article>
+
+        <article class="le-panel le-strategy-card">
+          <h3>Learn how the game really works</h3>
+          <p class="le-copy">
+            These guides help explain randomness, strategy myths, and why structured play is different from guessing without a process.
+          </p>
+          <div class="le-strategy-links">
+            <a class="le-strategy-link" href="/picking-winning-numbers/are-lottery-numbers-random">Are Lottery Numbers Random?</a>
+            <a class="le-strategy-link" href="/picking-winning-numbers/do-lottery-strategies-work">Do Lottery Strategies Work?</a>
+            <a class="le-strategy-link" href="/picking-winning-numbers/lottery-wheeling-systems-explained">Wheeling Systems Explained</a>
+          </div>
+        </article>
+
+        <article class="le-panel le-strategy-card">
+          <h3>Go deeper into tools and systems</h3>
+          <p class="le-copy">
+            If you already know what you want, jump straight into a major strategy page, explore structured wheeling systems, or open your LottoExpert workspace.
+          </p>
+          <div class="le-strategy-links">
+            <a class="le-strategy-link" href="/powerball-strategy">Powerball Strategy</a>
+            <a class="le-strategy-link" href="/all-wheeling-systems">All Wheeling Systems</a>
+            <a class="le-strategy-link" href="/membership/my-dashboard">My LottoExpert Workspace</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+<section class="le-section">
+    <div class="le-card le-learning-feature">
+      <p class="le-kicker le-kicker-blue">SKAI learning advantage</p>
+      <h2 class="le-title-lg">Why SKAI gets smarter over time</h2>
+      <p class="le-copy-lg">
+        SKAI is designed to do more than generate predictions. It improves through tracked outcomes, per-lottery learning, stronger continuity, and a more disciplined long-term workflow inside LottoExpert.
+      </p>
+
+      <div class="le-learning-feature-grid">
+        <div>
+          <div class="le-learning-pillars">
+            <article class="le-panel le-learning-pillar">
+              <h3 class="le-learning-pillar-title">Learning by lottery</h3>
+              <p class="le-copy">
+                SKAI learns by lottery, not by blending unrelated games together. Powerball improves from Powerball evidence. Mega Millions improves from Mega Millions evidence.
+              </p>
+            </article>
+
+            <article class="le-panel le-learning-pillar">
+              <h3 class="le-learning-pillar-title">Performance tracking</h3>
+              <p class="le-copy">
+                Outcomes, rankings, and near-misses help SKAI measure what keeps holding up and what needs refinement over time.
+              </p>
+            </article>
+
+            <article class="le-panel le-learning-pillar">
+              <h3 class="le-learning-pillar-title">Member continuity</h3>
+              <p class="le-copy">
+                My LottoExpert gives members a place to save work, compare runs, revisit strategies, and build a repeatable process instead of starting from zero every draw.
+              </p>
+            </article>
+
+            <article class="le-panel le-learning-pillar">
+              <h3 class="le-learning-pillar-title">Refinement over time</h3>
+              <p class="le-copy">
+                The goal is not random churn. It is a more informed, better organized system that becomes more useful as users track, compare, and learn from their results.
+              </p>
+            </article>
+          </div>
+        </div>
+
+        <aside class="le-panel le-learning-side">
+          <p class="le-kicker le-kicker-light">Why this matters</p>
+          <h3 class="le-title-md">A stronger advantage for serious users</h3>
+          <p class="le-copy">
+            SKAI connects prediction, analysis, and follow-through into one smarter system instead of leaving users with isolated outputs.
+          </p>
+          <ul class="le-learning-side-list">
+            <li>Each lottery improves on its own evidence base.</li>
+            <li>Tracked outcomes create more continuity between runs.</li>
+            <li>Saved workflow inside My LottoExpert becomes more useful over time.</li>
+            <li>SKAI becomes more organized, more informed, and more valuable the longer it is used well.</li>
+          </ul>
+          <div class="le-learning-note">
+            <p class="le-copy-sm">SKAI learning does not replace discipline. It strengthens it.</p>
+          </div>
+          <div class="le-button-row">
+            <a class="le-btn le-btn-light" href="/membership/my-dashboard">Open My LottoExpert</a>
+            <a class="le-btn le-btn-ghost" href="/membership/lottoexpert-subscriptions">Start Free</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="le-section">
+    <div class="le-card le-skai-hybrid">
+      <p class="le-kicker le-kicker-blue">How SKAI works</p>
+      <h2 class="le-title-lg">How SKAI works at a high level</h2>
+      <p class="le-copy-lg">
+        SKAI is designed to be understood directly, without forcing you to leave the page. Here you can see what the system is, how it approaches analysis, why it is different, and what it responsibly does not claim.
+      </p>
+
+      <div class="le-skai-hybrid-grid">
+        <div class="le-skai-hybrid-main">
+          <div class="le-skai-hybrid-callout">
+            <p class="le-kicker le-kicker-light">The positioning</p>
+            <h3 class="le-title-md">SKAI is a learning-based lottery intelligence system, not a gimmick page dressed up as AI.</h3>
+            <p class="le-copy">
+              SKAI is designed to analyze draw behavior, evaluate number structures, adapt by lottery, and refine how selections are generated over time. It gives users a stronger analytical starting point than random picks or thin static formulas.
+            </p>
+            <div class="le-button-row">
+              <a class="le-btn le-btn-light" href="/ai-lottery-prediction-how-it-works">Read the Full SKAI Page</a>
+              <a class="le-btn le-btn-ghost" href="/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=101">Run SKAI for Powerball</a>
+            </div>
+          </div>
+
+          <div class="le-skai-hybrid-strip">
+            <div class="le-panel le-skai-hybrid-mini">
+              <strong>Adaptive intelligence</strong>
+              <p class="le-copy-sm">SKAI is built to adjust to fresh evidence instead of staying fixed like a static generator.</p>
+            </div>
+            <div class="le-panel le-skai-hybrid-mini">
+              <strong>Combination awareness</strong>
+              <p class="le-copy-sm">It evaluates structure, balance, and number relationships rather than treating every number in isolation.</p>
+            </div>
+            <div class="le-panel le-skai-hybrid-mini">
+              <strong>Per-lottery learning</strong>
+              <p class="le-copy-sm">Each lottery is strengthened on its own evidence base so Powerball learning stays Powerball learning.</p>
+            </div>
+          </div>
+
+          <div class="le-skai-hybrid-layers">
+            <article class="le-panel le-skai-hybrid-layer">
+              <div class="le-skai-hybrid-no">1</div>
+              <h3 class="le-title-md">Historical pattern analysis</h3>
+              <p class="le-copy">
+                SKAI studies draw history to identify recurring structure, distribution tendencies, and long-range behavior that may help make number selection more disciplined.
+              </p>
+            </article>
+
+            <article class="le-panel le-skai-hybrid-layer">
+              <div class="le-skai-hybrid-no">2</div>
+              <h3 class="le-title-md">Adaptive recency logic</h3>
+              <p class="le-copy">
+                Recent behavior can matter, but not always in the same way. SKAI is designed to adjust how strongly newer outcomes influence current analysis.
+              </p>
+            </article>
+
+            <article class="le-panel le-skai-hybrid-layer">
+              <div class="le-skai-hybrid-no">3</div>
+              <h3 class="le-title-md">Structural number evaluation</h3>
+              <p class="le-copy">
+                The system looks beyond single hot and cold counts by examining how numbers behave together, how balance forms, and how patterns repeat.
+              </p>
+            </article>
+
+            <article class="le-panel le-skai-hybrid-layer">
+              <div class="le-skai-hybrid-no">4</div>
+              <h3 class="le-title-md">Continuous refinement</h3>
+              <p class="le-copy">
+                As new draws arrive and users continue working inside LottoExpert, SKAI is positioned to become more informed, more organized, and more useful over time.
+              </p>
+            </article>
+          </div>
+        </div>
+
+        <aside class="le-panel le-skai-hybrid-panel">
+          <p class="le-kicker le-kicker-light">How the system thinks</p>
+          <h3 class="le-title-md">The intelligence flow, simplified</h3>
+          <p class="le-copy">
+            This is a simplified view of how SKAI operates so you can understand the logic behind the system without needing to go deeper into technical detail.
+          </p>
+
+          <ul class="le-skai-hybrid-flow">
+            <li data-step="1">
+              <strong>Input layer</strong>
+              Draw history, recent outcomes, and lottery-specific behavior are gathered and evaluated.
+            </li>
+            <li data-step="2">
+              <strong>Analysis layer</strong>
+              SKAI studies frequency, structure, relationships, and changes in behavior together.
+            </li>
+            <li data-step="3">
+              <strong>Selection layer</strong>
+              Numbers are generated from a more structured process instead of raw randomization.
+            </li>
+            <li data-step="4">
+              <strong>Learning layer</strong>
+              New outcomes and continued use help refine the intelligence behind future selections.
+            </li>
+          </ul>
+
+          <div class="le-skai-hybrid-limits">
+            <div class="le-skai-hybrid-limit">
+              <strong>What SKAI is not</strong>
+              <p class="le-copy-sm">It is not a guarantee engine and it does not claim certainty.</p>
+            </div>
+            <div class="le-skai-hybrid-limit">
+              <strong>What SKAI does offer</strong>
+              <p class="le-copy-sm">A premium, better-organized, learning-based framework for smarter number selection.</p>
+            </div>
+          </div>
+
+          <div class="le-skai-hybrid-note">
+            <p class="le-copy-sm">Users who want the complete explanation can continue into the dedicated SKAI authority page without losing the homepage flow.</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="le-section">
+    <div class="le-card le-value-banner">
+      <p class="le-kicker le-kicker-blue">Why this matters</p>
+      <h2 class="le-title-lg">More than just numbers</h2>
+      <p class="le-copy-lg">
+        SKAI predictions can give you a stronger starting point. LottoExpert helps you evaluate, compare, narrow, and organize that starting point so your decisions feel more disciplined and less random.
+      </p>
+
+      <div class="le-value-grid">
+        <div class="le-panel le-value-item">
+          <strong>Start with AI predictions</strong>
+          <p class="le-copy">See ranked number outputs and a clearer first step instead of staring at raw draw history.</p>
+        </div>
+        <div class="le-panel le-value-item">
+          <strong>Test what stands out</strong>
+          <p class="le-copy">Use supporting tools to compare patterns, confirm signals, and separate stronger ideas from weaker ones.</p>
+        </div>
+        <div class="le-panel le-value-item">
+          <strong>Build a repeatable method</strong>
+          <p class="le-copy">Save work, track outcomes, and improve over time instead of starting from zero every draw.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="le-section">
+    <div class="le-card le-start">
+      <p class="le-kicker le-kicker-blue">Start here</p>
+      <h2 class="le-title-lg">Three clear ways to begin</h2>
+      <p class="le-copy-lg">
+        Choose the path that best matches what you want to do first: start with membership, open a featured lottery page, or learn how the platform fits together.
+      </p>
+
+      <div class="le-start-grid">
+        <article class="le-panel le-start-card">
+          <h3 class="le-title-md">Start with membership</h3>
+          <p class="le-copy">
+            Create a free account to access LottoExpert tools, predictions, and your member workflow before deciding how deeply you want to go.
+          </p>
+          <div class="le-button-row">
+            <a class="le-btn le-btn-dark" href="/membership/lottoexpert-subscriptions">Start free</a>
+          </div>
+        </article>
+
+        <article class="le-panel le-start-card">
+          <h3 class="le-title-md">Open a featured lottery page</h3>
+          <p class="le-copy">
+            Start from a major supported lottery page when you want direct access to results, analysis, and prediction tools without guessing where to click.
+          </p>
+          <div class="le-button-row">
+            <a class="le-btn le-btn-dark" href="/powerball-winning-numbers-analysis-tools">Open Powerball tools</a>
+          </div>
+        </article>
+
+        <article class="le-panel le-start-card">
+          <h3 class="le-title-md">Learn how it fits together</h3>
+          <p class="le-copy">
+            New users can see how LottoExpert, SKAI, historical tools, and My LottoExpert work together before going deeper.
+          </p>
+          <div class="le-button-row">
+            <a class="le-btn le-btn-dark" href="/blog/how-to-use-lottoexpert">How to use LottoExpert</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="le-section">
+    <div class="le-card le-quick-access">
+      <p class="le-kicker le-kicker-blue">Quick access</p>
+      <h2 class="le-title-lg">Go exactly where you need to go</h2>
+      <p class="le-copy-lg">
+        Start from your dashboard, memberships, wheeling systems, learning resources, or major lottery pages without getting sent to the wrong state.
+      </p>
+
+      <div class="le-quick-grid">
+        <article class="le-panel le-quick-card">
+          <h3>Membership and account</h3>
+          <p class="le-copy">
+            Go directly to your workspace, account access, or subscription pages.
+          </p>
+          <div class="le-quick-links">
+            <a class="le-quick-link" href="/membership/my-dashboard">My LottoExpert</a>
+            <a class="le-quick-link" href="/membership/members-login">Login</a>
+            <a class="le-quick-link" href="/membership/lottoexpert-subscriptions">Subscriptions</a>
+            <a class="le-quick-link" href="/membership/subscription-management">Manage subscription</a>
+          </div>
+        </article>
+
+        <article class="le-panel le-quick-card">
+          <h3>Major lottery pages</h3>
+          <p class="le-copy">
+            Go directly to major supported lottery pages that already have dedicated destinations.
+          </p>
+          <div class="le-quick-links">
+            <a class="le-quick-link" href="/powerball-winning-numbers-analysis-tools">Powerball</a>
+            <a class="le-quick-link" href="/megamillions-winning-numbers-analysis-tools">Mega Millions</a>
+            <a class="le-quick-link" href="/euromillions">EuroMillions</a>
+            <a class="le-quick-link" href="/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=145">Millionaire for Life</a>
+          </div>
+        </article>
+
+        <article class="le-panel le-quick-card">
+          <h3>Tools and learning</h3>
+          <p class="le-copy">
+            Start from platform tools and educational pages before moving into deeper analysis.
+          </p>
+          <div class="le-quick-links">
+            <a class="le-quick-link" href="/all-wheeling-systems">Wheeling systems</a>
+            <a class="le-quick-link" href="/best-lottery-strategy">Best Lottery Strategy</a>
+            <a class="le-quick-link" href="/ai-settings-explorer">AI settings explorer</a>
+            <a class="le-quick-link" href="/blog/how-to-use-lottoexpert">How to use LottoExpert</a>
+            <a class="le-quick-link" href="/picking-winning-numbers/revolutionizing-lottery-predictions-ai-neural-networks-and-statistical-insights">AI white paper</a>
+          </div>
+        </article>
+
+        <article class="le-panel le-quick-card">
+          <h3>Best next step for new users</h3>
+          <p class="le-copy">
+            If you are new, start with the workflow and membership path first so the platform makes more sense.
+          </p>
+          <div class="le-quick-links">
+            <a class="le-quick-link" href="/blog/how-to-use-lottoexpert">Learn the workflow</a>
+            <a class="le-quick-link" href="/membership/lottoexpert-subscriptions">Start free</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="le-section">
+    <div class="le-card le-predictions">
+      <p class="le-kicker le-kicker-blue">Looking for AI predictions?</p>
+      <h2 class="le-title-lg">Start with predictions. Then refine your numbers with analysis.</h2>
+      <p class="le-copy-lg">
+        Most visitors begin with AI predictions and numbers. LottoExpert helps you go further by comparing those predictions against draw history, identifying patterns, and tracking what actually performs over time.
+      </p>
+
+      <div class="le-predictions-grid">
+        <div class="le-panel le-predictions-card le-predictions-card-highlight">
+          <p class="le-kicker le-kicker-blue">Flagship option</p>
+          <h3 class="le-title-md">SKAI flagship AI</h3>
+          <p class="le-copy">
+            Run the flagship combined-analysis engine that brings multiple forms of lottery data together into a clearer prediction model.
+          </p>
+          <ul class="le-predictions-list">
+            <li>Ranked number outputs</li>
+            <li>Combined analytical signals</li>
+            <li>A stronger starting point for comparison</li>
+          </ul>
+          <div class="le-button-row">
+            <a class="le-btn le-btn-dark" href="/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=101">Open SKAI for Powerball</a>
+          </div>
+        </div>
+
+        <div class="le-panel le-predictions-card">
+          <p class="le-kicker le-kicker-blue">Alternate option</p>
+          <h3 class="le-title-md">Traditional AI</h3>
+          <p class="le-copy">
+            Generate AI predictions using classic model configurations and compare them with SKAI results for deeper insight.
+          </p>
+          <ul class="le-predictions-list">
+            <li>Traditional AI prediction runs</li>
+            <li>Useful comparison against SKAI</li>
+            <li>A familiar path for users who want another view</li>
+          </ul>
+          <div class="le-button-row">
+            <a class="le-btn le-btn-outline" href="/picking-winning-numbers/artificial-intelligence/ai-powered-predictions">Open Traditional AI</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="le-section">
+    <div class="le-card le-screens">
+      <p class="le-kicker le-kicker-blue">See the platform in action</p>
+      <h2 class="le-title-lg">A real analytical workspace</h2>
+      <p class="le-copy-lg">
+        The platform already includes real member-facing screens for dashboard control, deeper analysis, result tracking, and strategy refinement.
+      </p>
+
+      <div class="le-screens-grid">
+        <div class="le-screen-feature">
+          <article class="le-panel le-screen-card">
+            <div class="le-screen-top">
+              <span class="le-screen-dot is-blue"></span>
+              <span class="le-screen-dot"></span>
+              <span class="le-screen-dot"></span>
+              <span class="le-screen-title">My LottoExpert Dashboard</span>
+            </div>
+            <div class="le-screen-image-wrap">
+              <a
+                class="le-screen-trigger"
+                href="/images/Dashboard%20MyLottoexpert.png"
+                data-lightbox="homepage-screens"
+                data-title="My LottoExpert Dashboard"
+                aria-label="Open larger view of My LottoExpert Dashboard"
+                title="Open larger view of My LottoExpert Dashboard">
+                <img
+                  class="le-screen-image"
+                  src="/images/Dashboard%20MyLottoexpert.png"
+                  alt="My LottoExpert dashboard overview"
+                  loading="lazy"
+                  decoding="async"
+                  width="1200"
+                  height="760">
+              </a>
+            </div>
+            <div class="le-screen-caption">
+              <h3>Your strategy workspace</h3>
+              <p class="le-copy">
+                This is where users bring together saved predictions, agreement signals, hit tracking, and draw-by-draw evaluation inside one focused environment.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="le-screen-stack">
+          <article class="le-panel le-screen-card">
+            <div class="le-screen-top">
+              <span class="le-screen-dot is-blue"></span>
+              <span class="le-screen-dot"></span>
+              <span class="le-screen-dot"></span>
+              <span class="le-screen-title">Advanced Analysis</span>
+            </div>
+            <div class="le-screen-image-wrap">
+              <a
+                class="le-screen-trigger"
+                href="/images/Performance%20MyLottoexpert.png"
+                data-lightbox="homepage-screens"
+                data-title="Advanced Analysis"
+                aria-label="Open larger view of Advanced Analysis"
+                title="Open larger view of Advanced Analysis">
+                <img
+                  class="le-screen-image"
+                  src="/images/Performance%20MyLottoexpert.png"
+                  alt="Advanced SKAI analysis inside My LottoExpert"
+                  loading="lazy"
+                  decoding="async"
+                  width="900"
+                  height="560">
+              </a>
+            </div>
+            <div class="le-screen-caption">
+              <h3>Deeper analytical control</h3>
+              <p class="le-copy">
+                Advanced analysis gives members a more serious environment for testing, comparing, and refining.
+              </p>
+            </div>
+          </article>
+
+          <article class="le-panel le-screen-card">
+            <div class="le-screen-top">
+              <span class="le-screen-dot is-blue"></span>
+              <span class="le-screen-dot"></span>
+              <span class="le-screen-dot"></span>
+              <span class="le-screen-title">Results Tracking</span>
+            </div>
+            <div class="le-screen-image-wrap">
+              <a
+                class="le-screen-trigger"
+                href="/images/Compare%20MyLottoexpert.png"
+                data-lightbox="homepage-screens"
+                data-title="Results Tracking"
+                aria-label="Open larger view of Results Tracking"
+                title="Open larger view of Results Tracking">
+                <img
+                  class="le-screen-image"
+                  src="/images/Compare%20MyLottoexpert.png"
+                  alt="Tracking prediction results in My LottoExpert"
+                  loading="lazy"
+                  decoding="async"
+                  width="900"
+                  height="560">
+              </a>
+            </div>
+            <div class="le-screen-caption">
+              <h3>Compare what actually happened</h3>
+              <p class="le-copy">
+                Return after the draw and evaluate performance instead of relying on memory or guesswork.
+              </p>
+            </div>
+          </article>
+
+          <article class="le-panel le-screen-card">
+            <div class="le-screen-top">
+              <span class="le-screen-dot is-blue"></span>
+              <span class="le-screen-dot"></span>
+              <span class="le-screen-dot"></span>
+              <span class="le-screen-title">Learning Tools</span>
+            </div>
+            <div class="le-screen-image-wrap">
+              <a
+                class="le-screen-trigger"
+                href="/images/Learning%20My%20LottoExpert.png"
+                data-lightbox="homepage-screens"
+                data-title="Learning Tools"
+                aria-label="Open larger view of Learning Tools"
+                title="Open larger view of Learning Tools">
+                <img
+                  class="le-screen-image"
+                  src="/images/Learning%20My%20LottoExpert.png"
+                  alt="Strategy refinement tools inside My LottoExpert"
+                  loading="lazy"
+                  decoding="async"
+                  width="900"
+                  height="560">
+              </a>
+            </div>
+            <div class="le-screen-caption">
+              <h3>Track what works. Improve what does not.</h3>
+              <p class="le-copy">
+                The platform also helps users build understanding and refine their process over time, not just generate outputs.
+              </p>
+            </div>
+          </article>
+
+          <article class="le-panel le-screen-card">
+            <div class="le-screen-top">
+              <span class="le-screen-dot is-blue"></span>
+              <span class="le-screen-dot"></span>
+              <span class="le-screen-dot"></span>
+              <span class="le-screen-title">How It Connects</span>
+            </div>
+            <div class="le-screen-caption le-screen-caption-with-top">
+              <h3>One connected member workflow</h3>
+              <p class="le-copy">
+                Dashboard overview, advanced analysis, result tracking, and strategy refinement are all part of the same connected LottoExpert experience.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="le-section">
+    <div class="le-card le-featured">
+      <p class="le-kicker le-kicker-blue">Featured lotteries</p>
+      <h2 class="le-title-lg">Run AI predictions for major lotteries</h2>
+      <p class="le-copy">
+        Start with one of the platform's featured lotteries and go directly into predictions, results, archives, and deeper analysis.
+      </p>
+
+      <div class="le-featured-grid">
+
+        <article class="le-panel le-tile">
+          <div class="le-badge le-tile-badge">US</div>
+          <img class="le-tile-logo" src="/images/lottodb/us/ar/powerball.png" alt="Powerball Lottery Logo" loading="lazy" decoding="async" width="120" height="50">
+          <h3 class="le-tile-title">Powerball</h3>
+          <p class="le-tile-copy">Get AI predictions, review draw history, and analyze number behavior for one of the most followed games on the platform.</p>
+          <div class="le-tile-actions">
+            <a class="le-btn le-btn-dark" href="/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=101">SKAI Predictions</a>
+            <a class="le-btn le-btn-outline" href="/powerball-winning-numbers-analysis-tools">Results and Tools</a>
+          </div>
+        </article>
+
+        <article class="le-panel le-tile">
+          <div class="le-badge le-tile-badge">US</div>
+          <img class="le-tile-logo" src="/images/lottodb/us/ar/mega-millions.png" alt="Mega Millions Lottery Logo" loading="lazy" decoding="async" width="120" height="50">
+          <h3 class="le-tile-title">Mega Millions</h3>
+          <p class="le-tile-copy">Run AI predictions and explore deeper historical analysis for Mega Millions inside the same structured platform workflow.</p>
+          <div class="le-tile-actions">
+            <a class="le-btn le-btn-dark" href="/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=113">SKAI Predictions</a>
+            <a class="le-btn le-btn-outline" href="/megamillions-winning-numbers-analysis-tools">Results and Tools</a>
+          </div>
+        </article>
+
+        <article class="le-panel le-tile">
+          <div class="le-badge le-tile-badge">US</div>
+          <img class="le-tile-logo" src="/images/lottodb/us/ar/millionaire-for-life.png" alt="Millionaire for Life Lottery Logo" loading="lazy" decoding="async" width="120" height="50">
+          <h3 class="le-tile-title">Millionaire for Life</h3>
+          <p class="le-tile-copy">Analyze AI predictions and number patterns for this newer multi-state game with results, archives, and supporting tools.</p>
+          <div class="le-tile-actions">
+            <a class="le-btn le-btn-dark" href="/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=145">SKAI Predictions</a>
+            <a class="le-btn le-btn-outline" href="https://lottoexpert.net/all-us-lotteries/results-analysis?st=in&stn=Indiana&gm=Millionaire%20for%20Life&gmCode=145">Results and Tools</a>
+          </div>
+        </article>
+
+        <article class="le-panel le-tile">
+          <div class="le-badge le-tile-badge">International</div>
+          <img class="le-tile-logo" src="/images/lottodb/us/uk/euromillions.png" alt="EuroMillions Lottery Logo" loading="lazy" decoding="async" width="120" height="50">
+          <h3 class="le-tile-title">EuroMillions</h3>
+          <p class="le-tile-copy">Access AI predictions, archives, and pattern analysis for EuroMillions through the same structured LottoExpert workflow.</p>
+          <div class="le-tile-actions">
+            <a class="le-btn le-btn-dark" href="/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=801">SKAI Predictions</a>
+            <a class="le-btn le-btn-outline" href="/euromillions">Results and Tools</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="le-section">
+    <div class="le-skai">
+      <div class="le-skai-inner">
+        <div class="le-skai-left">
+          <p class="le-kicker le-kicker-light">SKAI flagship analysis</p>
+          <h2 class="le-title-lg">SKAI is the flagship combined-analysis engine inside LottoExpert</h2>
+          <p class="le-copy-lg">
+            SKAI is not the platform itself. It is LottoExpert's flagship AI analysis system. It brings multiple forms of lottery analysis together to help users see behavior more clearly, compare number patterns more intelligently, and work from a stronger analytical foundation.
+          </p>
+
+          <div class="le-skai-grid">
+            <div class="le-skai-box">
+              <h3 class="le-skai-box-title">Historical analysis</h3>
+              <p class="le-skai-box-copy">Review draw-history behavior, recurring structure, and evolving number tendencies over time.</p>
+            </div>
+            <div class="le-skai-box">
+              <h3 class="le-skai-box-title">Pattern comparison</h3>
+              <p class="le-skai-box-copy">Cross-check outputs with heatmaps, archives, and Skip and Hit analysis for more context.</p>
+            </div>
+            <div class="le-skai-box">
+              <h3 class="le-skai-box-title">Clearer output</h3>
+              <p class="le-skai-box-copy">Get more structured guidance instead of facing disconnected data without interpretation.</p>
+            </div>
+            <div class="le-skai-box">
+              <h3 class="le-skai-box-title">Platform continuity</h3>
+              <p class="le-skai-box-copy">Move from results to analysis to saved strategy without leaving the LottoExpert workflow.</p>
+            </div>
+          </div>
+
+          <div class="le-button-row">
+            <a class="le-btn le-btn-light" href="/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=101">Run SKAI Prediction</a>
+            <a class="le-btn le-btn-ghost" href="/ai-lottery-prediction-how-it-works">See How SKAI Thinks</a>
+          </div>
+        </div>
+
+        <aside class="le-skai-right">
+          <div class="le-skai-panel">
+            <h3 class="le-skai-panel-title">What SKAI brings together</h3>
+            <ul class="le-skai-panel-list">
+              <li>Historical draw analysis</li>
+              <li>Skip and Hit interpretation</li>
+              <li>Trend and repeat behavior</li>
+              <li>Cross-checking with supporting LottoExpert tools</li>
+              <li>A clearer starting point for more disciplined number decisions</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="le-section">
+    <div class="le-card le-membership">
+      <p class="le-kicker le-kicker-blue">My LottoExpert</p>
+      <h2 class="le-title-lg">Where analysis becomes a repeatable system</h2>
+      <p class="le-copy-lg">
+        My LottoExpert gives members a structured workspace for dashboard control, deeper analysis, tracking, and ongoing refinement.
+      </p>
+
+      <div class="le-membership-grid">
+        <div class="le-panel le-membership-card">
+          <h3 class="le-title-md">What members gain</h3>
+          <ul class="le-membership-list">
+            <li>Saved analysis history instead of starting from zero every time.</li>
+            <li>A place to compare runs, revisit ideas, and refine strategy over time.</li>
+            <li>Better continuity between SKAI, Traditional AI, and supporting platform tools.</li>
+            <li>A more serious workflow for users who want to work with structure rather than impulse.</li>
+          </ul>
+        </div>
+
+        <div class="le-panel le-membership-card le-membership-card-premium">
+          <p class="le-kicker le-kicker-success">Start with free access</p>
+          <h3 class="le-title-md">Begin simply. Upgrade when the platform proves its value.</h3>
+          <p class="le-copy">
+            Create a free account to start using LottoExpert, then move deeper into membership when you want more powerful analysis, more saved continuity, and a stronger personal workflow.
+          </p>
+
+          <p class="le-copy" style="margin-top:10px;">
+            Want to understand the system first?
+            <a href="/ai-lottery-prediction-how-it-works" style="color:#1C66FF; font-weight:700;">Learn how SKAI works</a>
+          </p>
+
+          <div class="le-callout">
+            <p class="le-copy-sm">
+              Free registration gives users an easy first step into AI predictions and platform tools while preserving a clear upgrade path for deeper use.
+            </p>
+          </div>
+
+          <div class="le-button-row">
+            <a class="le-btn le-btn-dark" href="/membership/lottoexpert-subscriptions">Create Free Account</a>
+            <a class="le-btn le-btn-outline" href="/membership/my-dashboard">Open My LottoExpert</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="le-section">
+    <div class="le-card le-learn">
+      <p class="le-kicker le-kicker-blue">Learn and explore</p>
+      <h2 class="le-title-lg">Understand the platform with confidence</h2>
+      <p class="le-copy">
+        Learn how the platform works, understand the analytical settings, and explore the research behind LottoExpert's approach.
+      </p>
+
+      <div class="le-learn-grid">
+        <article class="le-panel le-learn-card">
+          <span class="le-badge le-learn-badge">White Paper</span>
+          <h3 class="le-title-md">AI White Paper</h3>
+          <p class="le-copy">Read the deeper explanation behind LottoExpert's AI, statistics, and responsible methodology.</p>
+          <a class="le-link" href="/picking-winning-numbers/revolutionizing-lottery-predictions-ai-neural-networks-and-statistical-insights">Read More</a>
+        </article>
+
+        <article class="le-panel le-learn-card">
+          <span class="le-badge le-learn-badge">Settings</span>
+          <h3 class="le-title-md">AI Settings Explorer</h3>
+          <p class="le-copy">Understand the meaning of settings like recency, epochs, and model behavior in plain language.</p>
+          <a class="le-link" href="/ai-settings-explorer">Read More</a>
+        </article>
+
+        <article class="le-panel le-learn-card">
+          <span class="le-badge le-learn-badge">Discipline</span>
+          <h3 class="le-title-md">Play Smarter, Not Harder</h3>
+          <p class="le-copy">A practical guide to using LottoExpert with more discipline, less noise, and better decision habits.</p>
+          <a class="le-link" href="/blog/play-smarter-not-harder">Read More</a>
+        </article>
+
+        <article class="le-panel le-learn-card">
+          <span class="le-badge le-learn-badge">Workflow</span>
+          <h3 class="le-title-md">How to Use LottoExpert</h3>
+          <p class="le-copy">See how results pages, SKAI, historical tools, and My LottoExpert fit together into one workflow.</p>
+          <a class="le-link" href="/blog/how-to-use-lottoexpert">Read More</a>
+        </article>
+
+        <article class="le-panel le-learn-card">
+          <span class="le-badge le-learn-badge">Strategy</span>
+          <h3 class="le-title-md">Best Lottery Strategy</h3>
+          <p class="le-copy">Start with the main strategy guide if you want to see how number selection, odds, wheeling systems, and structured lottery play fit together.</p>
+          <a class="le-link" href="/best-lottery-strategy">Read More</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="le-section">
+    <div class="le-card le-method">
+      <p class="le-kicker le-kicker-blue">The narrowing method</p>
+      <h2 class="le-title-lg">How the process works</h2>
+      <p class="le-copy-lg">
+        Think of the method as a funnel: broad comparison first, evidence-based narrowing next, and more serious refinement only after stronger behavior begins to stand out.
+      </p>
+
+      <div class="le-method-grid">
+        <article class="le-panel le-method-step">
+          <div class="le-method-no">1</div>
+          <h3 class="le-title-md">Begin with broad comparison</h3>
+          <p class="le-copy">Start with broader workflow understanding and comparison first, then let the data begin separating what looks promising from what does not hold up.</p>
+        </article>
+
+        <article class="le-panel le-method-step">
+          <div class="le-method-no">2</div>
+          <h3 class="le-title-md">Narrow what continues to perform</h3>
+          <p class="le-copy">Refine the blend and skip relationship, remove weaker setups, and focus more closely on what keeps showing consistency.</p>
+        </article>
+
+        <article class="le-panel le-method-step">
+          <div class="le-method-no">3</div>
+          <h3 class="le-title-md">Track, refine, then get serious</h3>
+          <p class="le-copy">Save runs in My LottoExpert, compare results over time, and only move deeper after stronger configurations earn confidence.</p>
+        </article>
+      </div>
+
+      <div class="le-button-row">
+        <a class="le-btn le-btn-dark" href="/blog/lottoexpert-narrowing-method">Read the Full Method</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="le-section">
+    <div class="le-card le-aio">
+      <p class="le-kicker le-kicker-blue">Clarity and trust</p>
+      <h2 class="le-title-lg">What LottoExpert and SKAI are designed to help you do</h2>
+      <p class="le-copy-lg">
+        This page is built to give users a clear understanding of LottoExpert, SKAI, and the broader analysis workflow. It explains the platform in plain language so users, search engines, and AI systems can all understand the same core message clearly and consistently.
+      </p>
+
+      <div class="le-aio-grid">
+        <article class="le-panel le-aio-card">
+          <h3 class="le-title-md">What LottoExpert is</h3>
+          <p class="le-copy">
+            LottoExpert is an AI-powered lottery analysis platform focused on structured predictions, historical analysis, workflow continuity, and smarter number selection support.
+          </p>
+          <ul class="le-aio-list">
+            <li>AI predictions for supported lotteries</li>
+            <li>Historical results, pattern analysis, and archives</li>
+            <li>Tools that help users compare, narrow, and organize selections</li>
+            <li>Member workflow through My LottoExpert</li>
+          </ul>
+        </article>
+
+        <article class="le-panel le-aio-card">
+          <h3 class="le-title-md">What SKAI is</h3>
+          <p class="le-copy">
+            SKAI is LottoExpert's flagship learning-based lottery intelligence system. It is designed to evaluate draw history, number structure, recency behavior, and lottery-specific evidence to produce more informed starting points for analysis.
+          </p>
+          <ul class="le-aio-list">
+            <li>Built for lottery-specific learning</li>
+            <li>Focused on structured analysis rather than random guessing</li>
+            <li>Designed to improve usefulness through continuity and tracked outcomes</li>
+            <li>Positioned as a decision-support system, not a guarantee engine</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="le-faq-grid">
+        <article class="le-panel le-faq-card">
+          <h3 class="le-title-md">What makes SKAI different from a simple lottery generator?</h3>
+          <p class="le-copy">
+            SKAI is designed to analyze patterns, structure, and changing lottery behavior rather than produce random combinations without context. The goal is to give users a more disciplined starting point for evaluation.
+          </p>
+        </article>
+
+        <article class="le-panel le-faq-card">
+          <h3 class="le-title-md">Does LottoExpert guarantee winning numbers?</h3>
+          <p class="le-copy">
+            No. LottoExpert is positioned as a truth-based lottery analysis platform. It aims to help users make more informed, better-organized decisions, but it does not claim certainty or guaranteed wins.
+          </p>
+        </article>
+
+        <article class="le-panel le-faq-card">
+          <h3 class="le-title-md">How should users use LottoExpert?</h3>
+          <p class="le-copy">
+            The intended workflow is to start with predictions, compare them with historical and supporting analysis, narrow stronger ideas, and track results over time inside My LottoExpert.
+          </p>
+        </article>
+
+        <article class="le-panel le-faq-card">
+          <h3 class="le-title-md">Who is this platform for?</h3>
+          <p class="le-copy">
+            LottoExpert is for users who want a more structured, analytical, and transparent approach to lottery number selection instead of relying only on instinct or random picks.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="le-section">
+    <div class="le-card le-directory">
+      <div class="le-directory-inner">
+        <div>
+          <h2 class="le-directory-title">Browse the wider platform</h2>
+          <p class="le-copy-sm">
+            Explore more tools, learning resources, and member workflow areas from the wider LottoExpert platform.
+          </p>
+        </div>
+
+        <div class="le-button-row le-button-row-no-top">
+          <a class="le-btn le-btn-outline" href="/membership/my-dashboard">My LottoExpert</a>
+          <a class="le-btn le-btn-outline" href="/all-wheeling-systems">Wheeling Systems</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="le-lightbox" id="le-home-lightbox" aria-hidden="true">
+    <div class="le-lightbox-dialog" role="dialog" aria-modal="true" aria-labelledby="le-home-lightbox-title">
+      <div class="le-lightbox-topbar">
+        <p class="le-lightbox-title" id="le-home-lightbox-title">Screenshot Preview</p>
+        <button type="button" class="le-lightbox-close" id="le-home-lightbox-close" aria-label="Close screenshot preview">&times;</button>
+      </div>
+      <div class="le-lightbox-body" id="le-home-lightbox-backdrop">
+        <img
+          class="le-lightbox-image"
+          id="le-home-lightbox-image"
+          src=""
+          alt="">
+      </div>
+    </div>
+  </div>
+
+  <script>
+  (function() {
+    var triggers = document.querySelectorAll('.le-home-v3 [data-lightbox="homepage-screens"]');
+    var lightbox = document.getElementById('le-home-lightbox');
+    var lightboxImage = document.getElementById('le-home-lightbox-image');
+    var lightboxTitle = document.getElementById('le-home-lightbox-title');
+    var closeButton = document.getElementById('le-home-lightbox-close');
+    var backdrop = document.getElementById('le-home-lightbox-backdrop');
+    var lastTrigger = null;
+
+    if (!triggers.length || !lightbox || !lightboxImage || !lightboxTitle || !closeButton || !backdrop) {
+      return;
+    }
+
+    function openLightbox(src, title, altText) {
+      lightboxImage.setAttribute('src', src);
+      lightboxImage.setAttribute('alt', altText || title || 'Expanded screenshot');
+      lightboxTitle.textContent = title || 'Screenshot Preview';
+      lightbox.className = 'le-lightbox is-open';
+      lightbox.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      closeButton.focus();
+    }
+
+    function closeLightbox() {
+      lightbox.className = 'le-lightbox';
+      lightbox.setAttribute('aria-hidden', 'true');
+      lightboxImage.setAttribute('src', '');
+      lightboxImage.setAttribute('alt', '');
+      document.body.style.overflow = '';
+      if (lastTrigger && typeof lastTrigger.focus === 'function') {
+        lastTrigger.focus();
+      }
+    }
+
+    function handleTriggerClick(event) {
+      event.preventDefault();
+      var trigger = event.currentTarget;
+      lastTrigger = trigger;
+      var src = trigger.getAttribute('href');
+      var title = trigger.getAttribute('data-title') || 'Screenshot Preview';
+      var img = trigger.getElementsByTagName('img')[0];
+      var altText = img ? img.getAttribute('alt') : title;
+      openLightbox(src, title, altText);
+    }
+
+    function handleKeydown(event) {
+      var key = event.key || event.keyCode;
+      if (key === 'Escape' || key === 'Esc' || key === 27) {
+        closeLightbox();
+      }
+    }
+
+    var i;
+    for (i = 0; i < triggers.length; i++) {
+      triggers[i].addEventListener('click', handleTriggerClick);
+    }
+
+    closeButton.addEventListener('click', function() {
+      closeLightbox();
+    });
+
+    lightbox.addEventListener('click', function(event) {
+      if (event.target === lightbox) {
+        closeLightbox();
+      }
+    });
+
+    backdrop.addEventListener('click', function(event) {
+      if (event.target === backdrop) {
+        closeLightbox();
+      }
+    });
+
+    document.addEventListener('keydown', handleKeydown);
+  })();
+  </script>
+
+</div>
